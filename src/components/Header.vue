@@ -41,7 +41,7 @@ const mobileMenuOpen = ref(false)
       aria-labelh="Global"
     >
       <div class="pr-8 lg:flex lg:flex-1">
-        <a href="#" class="-m-1.5">
+        <a href="/" class="-m-1.5">
           <span class="sr-only">Demo Blog</span>
           <img
             class="h-8 w-auto"
@@ -62,7 +62,7 @@ const mobileMenuOpen = ref(false)
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
         <NavLink src="https://demo.dotcms.com/" text="Home" :ext="true" target="_blank" />
-        <NavLink text="Travel Blog" />
+        <NavLink text="Travel Blog" src="blog" />
         <NavLink text="Destinations" />
         <Popover class="relative p-[3px]">
           <PopoverButton
