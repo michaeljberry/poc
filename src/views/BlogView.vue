@@ -31,83 +31,80 @@ async function createJWT() {
       expirationDays: 10
     })
   })
-  console.log(response)
-  token.value = await response.json()
-  console.log(token)
-}
-
-async function fetchBlogPosts() {
-  const httpLink = await new HttpLink({
-  uri: 'https://demo.dotcms.com/api/v1/graphql',
-  headers: {
-    // authorization: `Bearer ${token.value}`,
-    // 'Content-Type': 'application/graphql',
-    // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN': '*',
-    // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_HEADERS': '*',
-    // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_METHODS': 'GET,PUT,POST,DELETE,HEAD,OPTIONS,PATCH',
-    // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_CREDENTIALS': 'true',
-    // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_EXPOSE_HEADERS': '*',
-    'Access-Control-Allow-Origin': '*',
-    // 'Access-Control-Allow-Headers': '*',
-    // 'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,HEAD,OPTIONS,PATCH',
-    // 'Access-Control-Allow-Credentials': 'true',
-    // 'Access-Control-Expose-Headers': '*'
-  },
-  // fetchOptions: {
-  //   mode: 'no-cors'
-  // }
-  })
-
-  const cache = await new InMemoryCache()
-
-const apolloClient = await new ApolloClient({
-  link: httpLink,
-  // fetchOptions:{
-  //   credentials: 'include'
-  // },
-  cache,
-})
-
-await apolloClient.query({
-  query: ALL_BLOGS_QUERY,
-  })
-  .then(res => {
-    console.log(res);
-  })
+  const responseJson = await response.json();
+  token.value = responseJson.entity.token
 }
 
 // async function fetchBlogPosts() {
-//   const endpoint = '/api/content/query/live/10'
-//   //   const endpoint = '/api/v1/graphql'
-//   const body = {
-//     query: '{blogCollection(limit: 10) {}}'
-//   }
+//   const httpLink = await new HttpLink({
+//   uri: 'https://demo.dotcms.com/api/v1/graphql',
+//   headers: {
+//     // authorization: `Bearer ${token.value}`,
+//     // 'Content-Type': 'application/graphql',
+//     // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN': '*',
+//     // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_HEADERS': '*',
+//     // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_METHODS': 'GET,PUT,POST,DELETE,HEAD,OPTIONS,PATCH',
+//     // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_ALLOW_CREDENTIALS': 'true',
+//     // 'DOT_API_CORS_DEFAULT_ACCESS_CONTROL_EXPOSE_HEADERS': '*',
+//     // 'Access-Control-Allow-Origin': '*',
+//     // 'Access-Control-Allow-Headers': '*',
+//     // 'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,HEAD,OPTIONS,PATCH',
+//     // 'Access-Control-Allow-Credentials': 'true',
+//     // 'Access-Control-Expose-Headers': '*'
+//     // 'DOT_API_CORS_CONTENTRESOURCE_ACCESS_CONTROL_ALLOW_CREDENTIALS': 'false',
+//     // 'DOT_API_CORS_CONTENTRESOURCE_ACCESS_CONTROL_ALLOW_METHODS': 'PUT',
+//     // 'DOT_API_CORS_CONTENTRESOURCE_ACCESS_CONTROL_ALLOW_ORIGIN': 'localhost',
+//     // 'DOT_API_CORS_CONTENTRESOURCE_ACCESS_CONTROL_ALLOW_HEADERS': 'Authorization,Accept,Cookies,Content-Type,Content-Length',
+//   },
+//   // fetchOptions: {
+//   //   mode: 'no-cors'
+//   // }
+//   })
 
-//   try {
-//     isLoading.value = true
-//     const response = await fetch(`${blogPostUrl}${endpoint}`, {
-//       method: 'GET',
-//       //   method: 'POST',
-//       headers: {
-//         Authorization: `Bearer ${token.value}`
-//         // 'Content-Type': 'application/json'
-//       }
-//       //   body: JSON.stringify(body)
-//     })
-//     console.log(response)
-//     blogPosts.value = await response.json()
-//     // blogPosts = useBlogPostStore().blogPosts.contentlets
-//     console.log(blogPosts)
-//   } catch (e) {
-//     console.error(e)
-//   } finally {
-//     isLoading.value = false
-//   }
+// const cache = await new InMemoryCache()
+
+// const apolloClient = await new ApolloClient({
+//   link: httpLink,
+//   // fetchOptions:{
+//   //   credentials: 'include'
+//   // },
+//   cache,
+// })
+
+// await apolloClient.query({
+//   query: ALL_BLOGS_QUERY,
+//   })
+//   .then(res => {
+//     console.log(res);
+//   })
 // }
 
-onBeforeMount(() => {
-  createJWT()
-})
+async function fetchBlogPosts() {
+  const endpoint = '/api/content/render/false/query/+contentType:Blog%20+(conhost:48190c8c-42c4-46af-8d1a-0cd5db894797%20conhost:SYSTEM_HOST)%20+languageId:1%20+deleted:false%20+working:true%20+variant:default/orderby/modDate%20desc'
+
+  try {
+    isLoading.value = true
+    // const response = await fetch(`${blogPostUrl}${endpoint}`, {
+    //   method: 'GET',
+    //   headers: {
+    //     Authorization: `Bearer ${token.value}`,
+    //     'Content-Type': 'application/json'
+    //   },
+    // })
+    // blogPosts.value = await response.json()
+    blogPosts.value = await useBlogPostStore();
+  } catch (e) {
+    console.error(e)
+  } finally {
+    isLoading.value = false
+  }
+}
+
+// onBeforeMount(() => {
+//   createJWT().then(() => {
+//     fetchBlogPosts()
+//   })
+// })
 onMounted(() => {
   fetchBlogPosts()
 })
