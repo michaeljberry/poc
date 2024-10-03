@@ -1,18 +1,21 @@
 <script setup>
-import { ref, onBeforeMount, onMounted } from 'vue'
+import { ref, onBeforeMount } from 'vue'
 import { useBlogPostStore } from '@/stores/blogPost'
-import { DotCmsClient } from '@dotcms/client'
-import {
-  ApolloClient,
-  HttpLink,
-  InMemoryCache,
-} from "@apollo/client/core"
-import { ALL_BLOGS_QUERY } from '@/queries'
+// import { DotCmsClient } from '@dotcms/client'
+// import {
+//   ApolloClient,
+//   HttpLink,
+//   InMemoryCache,
+// } from "@apollo/client/core"
+// import { ALL_BLOGS_QUERY } from '@/queries'
+import BlogTiles from '@/components/BlogTiles.vue'
 
 const isLoading = ref(true)
 
 let token = ref(null)
-let blogPosts = ref()
+// let blogPosts = ref()
+const store = useBlogPostStore()
+const blogPosts = store.blogPosts
 
 const username = 'admin@dotcms.com'
 const password = 'admin'
@@ -91,8 +94,10 @@ async function fetchBlogPosts() {
     //     'Content-Type': 'application/json'
     //   },
     // })
-    // blogPosts.value = await response.json()
-    blogPosts.value = await useBlogPostStore();
+    // const blogPostResponse = await response.json()
+    // blogPosts.value = blogPostResponse.contentlets
+    // console.log(blogPosts.value)
+    console.log(blogPosts)
   } catch (e) {
     console.error(e)
   } finally {
@@ -100,18 +105,30 @@ async function fetchBlogPosts() {
   }
 }
 
-// onBeforeMount(() => {
-//   createJWT().then(() => {
-//     fetchBlogPosts()
-//   })
-// })
-onMounted(() => {
-  fetchBlogPosts()
+onBeforeMount(() => {
+  // createJWT().then(() => {
+    fetchBlogPosts()
+  // })
 })
+// onMounted(() => {
+//   fetchBlogPosts()
+// })
 </script>
 
 <template>
-  <main>
-    <div v-if="!isLoading">{{ blogPosts }}</div>
+  <main v-if="!isLoading">
+    <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl uppercase">Travel Blog</h2>
+          <p class="mt-2 text-lg leading-8 text-gray-600">Get inspired to experience the world. Our writers will give you their first-hand stories and recommendations that will inspire, excite you, and help you make the best desition s for planning your next adventure.
+          </p>
+        </div>
+        <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <BlogTiles v-for="post in blogPosts.contentlets" :key="post.identifier" :post="post"
+            class="flex flex-col items-start"></BlogTiles>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
