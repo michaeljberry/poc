@@ -12,10 +12,14 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.8",
     "@dotcms/client": "^0.0.1-alpha.38",
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.1.5",
     "@tailwindcss/forms": "^0.5.9",
+    "@vue/apollo-composable": "^4.2.1",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"

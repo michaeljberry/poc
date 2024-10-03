@@ -1,0 +1,8 @@
+{
+  "client": {
+    "service": {
+      "name": "blog",
+      "url": "https://demo.dotcms.com/api/v1/graphql"
+    }
+  }
+}
