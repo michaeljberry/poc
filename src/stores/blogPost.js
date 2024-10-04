@@ -2831,828 +2831,829 @@ export const useBlogPostStore = defineStore('blogPost', () => {
         contentTypeIcon: 'file_copy',
         variant: 'DEFAULT'
       },
-      {
-        pageTitle: 'Ecotourism in Costa Rica',
-        publishDate: '2024-10-03 12:07:00.135',
-        postingDate: '2024-09-02 21:33:00.0',
-        metaDescription:
-          'Ecotourism in Costa Rica is a robust industry because the country was one of the earliest adopters of connecting nature/wildlife conservation with responsible travel.',
-        ogType: 'article',
-        inode: '5c340386-568c-407d-94fb-b1c4bd5ca2c1',
-        host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-        locked: false,
-        stInode: '799f176a-d32e-4844-a07c-1b5fcd107578',
-        contentType: 'Blog',
-        sitemap: 'true',
-        identifier: 'a7df3f39-a18a-4b16-b369-aa9d7acb0b27',
-        image: 'a5e07aeec178670a0ec5413ab653a45b',
-        urlTitle: 'ecotourism-in-costa-rica',
-        publishUserName: 'Admin User',
-        publishUser: 'dotcms.org.1',
-        creationDate: '2020-09-18 21:35:39.959',
-        tags: 'ecoenthusiast,hiking,zip-lining',
-        sitemapImportance: '0.6',
-        folder: 'SYSTEM_FOLDER',
-        hasTitleImage: true,
-        sortOrder: 0,
-        hostName: 'demo.dotcms.com',
-        modDate: '2024-06-13 18:22:34.376',
-        searchEngineIndex: 'index,follow,snippet',
-        blogContent: {
-          type: 'doc',
-          content: [
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'left'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "Ecotourism in Costa Rica has become increasingly popular in recent years, and it's no wonder why. With its breathtaking natural beauty, rich biodiversity, and commitment to sustainability, Costa Rica is the perfect destination for those looking to experience the great outdoors while also minimizing their impact on the environment."
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'start'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "One of the main attractions of ecotourism in Costa Rica is the country's incredible diversity of flora and fauna. From the lush rainforests of the Caribbean coast to the dry forests of the Pacific northwest, Costa Rica is home to a wide range of ecosystems that are home to an equally diverse array of species. Whether you're interested in spotting rare birds, observing monkeys and other primates, or just enjoying the beauty of the natural world, Costa Rica has something to offer."
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'start'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: 'In addition to its natural beauty, Costa Rica is also known for its commitment to sustainability. The country has made a concerted effort to protect its natural resources, and as a result, it has become a leader in the field of eco-tourism. Many hotels and resorts in Costa Rica are certified as eco-friendly, and the country has implemented a number of initiatives to reduce its carbon footprint and protect its environment.'
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'start'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "If you're interested in experiencing the natural beauty of Costa Rica while also minimizing your impact on the environment, there are a number of ecotourism activities to choose from. Some popular options include:"
-                }
-              ]
-            },
-            {
-              type: 'bulletList',
-              content: [
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Hiking: Costa Rica is home to a number of beautiful national parks and reserves, many of which offer hiking trails of varying lengths and difficulty levels. Whether you're interested in exploring the rainforest, climbing a volcano, or just enjoying a leisurely stroll through the countryside, there's a hike for everyone in Costa Rica."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Wildlife viewing: Costa Rica is home to an incredible array of wildlife, and there are plenty of opportunities to observe it up close. Whether you're interested in birdwatching, observing monkeys and other primates, or just soaking up the sights and sounds of the natural world, there's something for everyone in Costa Rica."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Surfing: Costa Rica's Pacific coast is home to some of the best surfing spots in the world, and there are plenty of opportunities to catch a wave. Whether you're a seasoned pro or a beginner, you'll find a spot that's perfect for your skill level."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Kayaking: Costa Rica is home to a number of rivers and waterways, and kayaking is a great way to explore them. Whether you're interested in paddling through the rainforest, fishing, or just enjoying the scenery, there are plenty of options to choose from."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'start'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "Overall, ecotourism in Costa Rica is a great way to experience the country's natural beauty while also minimizing your impact on the environment. With a wide range of activities to choose from and a commitment to sustainability, Costa Rica is the perfect destination for nature lovers of all kinds."
-                }
-              ]
-            }
-          ]
-        },
-        title: 'Ecotourism in Costa Rica',
-        baseType: 'CONTENT',
-        archived: false,
-        ownerName: 'Admin User',
-        working: true,
-        live: true,
-        owner: 'dotcms.org.1',
-        languageId: 1,
-        URL_MAP_FOR_CONTENT: '/blog/post/ecotourism-in-costa-rica',
-        ogDescription:
-          "Overview of Costa Rica's sustainable travel opportunities. It highlights the country's rich biodiversity, protected areas, and commitment to conservation. The page emphasizes the benefits of ecotourism, such as supporting local communities and preserving natural resources. Visitors can explore national parks, engage in eco-friendly activities, and immerse themselves in Costa Rica's remarkable natural beauty.",
-        url: '/content.7a835184-9bba-411a-bd0d-6bd9f16fb508',
-        titleImage: 'image',
-        modUserName: 'Admin User',
-        urlMap: '/blog/post/ecotourism-in-costa-rica',
-        hasLiveVersion: true,
-        blogContent_raw:
-          '{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Ecotourism in Costa Rica has become increasingly popular in recent years, and it\'s no wonder why. With its breathtaking natural beauty, rich biodiversity, and commitment to sustainability, Costa Rica is the perfect destination for those looking to experience the great outdoors while also minimizing their impact on the environment."}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"One of the main attractions of ecotourism in Costa Rica is the country\'s incredible diversity of flora and fauna. From the lush rainforests of the Caribbean coast to the dry forests of the Pacific northwest, Costa Rica is home to a wide range of ecosystems that are home to an equally diverse array of species. Whether you\'re interested in spotting rare birds, observing monkeys and other primates, or just enjoying the beauty of the natural world, Costa Rica has something to offer."}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"In addition to its natural beauty, Costa Rica is also known for its commitment to sustainability. The country has made a concerted effort to protect its natural resources, and as a result, it has become a leader in the field of eco-tourism. Many hotels and resorts in Costa Rica are certified as eco-friendly, and the country has implemented a number of initiatives to reduce its carbon footprint and protect its environment."}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"If you\'re interested in experiencing the natural beauty of Costa Rica while also minimizing your impact on the environment, there are a number of ecotourism activities to choose from. Some popular options include:"}]},{"type":"bulletList","content":[{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Hiking: Costa Rica is home to a number of beautiful national parks and reserves, many of which offer hiking trails of varying lengths and difficulty levels. Whether you\'re interested in exploring the rainforest, climbing a volcano, or just enjoying a leisurely stroll through the countryside, there\'s a hike for everyone in Costa Rica."}]}]},{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Wildlife viewing: Costa Rica is home to an incredible array of wildlife, and there are plenty of opportunities to observe it up close. Whether you\'re interested in birdwatching, observing monkeys and other primates, or just soaking up the sights and sounds of the natural world, there\'s something for everyone in Costa Rica."}]}]},{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Surfing: Costa Rica\'s Pacific coast is home to some of the best surfing spots in the world, and there are plenty of opportunities to catch a wave. Whether you\'re a seasoned pro or a beginner, you\'ll find a spot that\'s perfect for your skill level."}]}]},{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Kayaking: Costa Rica is home to a number of rivers and waterways, and kayaking is a great way to explore them. Whether you\'re interested in paddling through the rainforest, fishing, or just enjoying the scenery, there are plenty of options to choose from."}]}]}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"Overall, ecotourism in Costa Rica is a great way to experience the country\'s natural beauty while also minimizing your impact on the environment. With a wide range of activities to choose from and a commitment to sustainability, Costa Rica is the perfect destination for nature lovers of all kinds."}]}]}',
-        modUser: 'dotcms.org.1',
-        teaser:
-          'Ecotourism in Costa Rica is a robust industry because the country was one of the earliest adopters of connecting nature/wildlife conservation with responsible travel.',
-        __icon__: 'contentIcon',
-        contentTypeIcon: 'file_copy',
-        variant: 'DEFAULT'
-      },
-      {
-        ogTitle: 'The Ultimate Family Ski Trip Packing List',
-        publishDate: '2024-05-30 16:52:08.123',
-        postingDate: '2019-07-16 20:55:00.0',
-        metaDescription:
-          'exhilarating experience. There is something mind clearing about ascending the mountain bundled up in the crisp air',
-        ogType: 'article',
-        inode: 'd29e0f84-8bfe-44c0-bc97-f320e4cd87de',
-        host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-        locked: false,
-        stInode: '799f176a-d32e-4844-a07c-1b5fcd107578',
-        contentType: 'Blog',
-        sitemap: 'true',
-        identifier: '3d6fa2a4-2b48-4421-a2f5-b6518a7c0830',
-        image: 'abeb7f4eea9f95bb8b298de3202bf22b',
-        urlTitle: 'the-ultimate-family-ski-trip-packing-list',
-        publishUserName: 'Admin User',
-        publishUser: 'dotcms.org.1',
-        creationDate: '2020-09-02 16:43:24.184',
-        ogImage: 'c6f7a19c-b850-4725-b76d-0e085e0c329c',
-        tags: 'family,skiing,vaction',
-        sitemapImportance: '0.5',
-        folder: 'SYSTEM_FOLDER',
-        hasTitleImage: true,
-        sortOrder: 0,
-        hostName: 'demo.dotcms.com',
-        modDate: '2024-05-30 16:52:07.934',
-        searchEngineIndex: 'index,follow,snippet',
-        blogContent: {
-          type: 'doc',
-          content: [
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'left'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "If you're planning a family ski trip, packing can be overwhelming. There's so much to consider, from warm clothing to ski gear to entertainment for the car ride. To make things easier, we've put together the ultimate family ski trip packing list to help you make sure you don't forget anything important."
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'start'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "Foremost, you'll want to pack all of your warm clothing. This includes things like thermal underwear, ski socks, ski jackets, ski pants, and warm hats and gloves. Make sure to pack extra layers in case it gets colder than expected. You'll also want to bring along some non-ski clothing for apres-ski activities, such as jeans, sweaters, and comfortable shoes."
-                }
-              ]
-            },
-            {
-              type: 'dotContent',
-              attrs: {
-                data: {
-                  inode: 'bbc615de-9469-44ef-8658-6816ac0a229f',
-                  locked: false,
-                  stInode: 'a1661fbc-9e84-4c00-bd62-76d633170da3',
-                  contentType: 'Product',
-                  identifier: '662efaea-ccca-4753-acbc-15683bb3f68d',
-                  image:
-                    '/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image/helmet-2.jpeg',
-                  urlTitle: 'anon-womens-omega-snow-helmet',
-                  productNumber: '3467050841805-010900',
-                  folder: 'SYSTEM_FOLDER',
-                  sortOrder: 0,
-                  specifications1: {},
-                  hostName: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                  modDate: '2020-09-02T16:45:20.057+00:00',
-                  description:
-                    "<p>The Anon Women's Omega Snow Helmet features the In-shell 360&deg; Boa&reg; Fit System for easy, on-the-go fit adjustment with the turn of a dial. It's a full-featured helmet that will have you raving over the slick, well-vented design. In-mold shell construction offers the best in comfort with a sleek, low-profile fit and feel. The Goggle Ventilation Channel brings in fresh air to prevent google fogging. Active Ventilation gives you one-handed control over 12 total vents, so you can fine tune your temperature depending on the weather and activity.<br /><br /></p>",
-                  title: "Anon Women's Omega Snow Helmet",
-                  baseType: 'CONTENT',
-                  archived: false,
-                  working: true,
-                  live: true,
-                  owner: 'dotcms.org.1',
-                  image3:
-                    '/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image3/helmet.jpeg',
-                  salePrice: '89.99',
-                  languageId: 1,
-                  image2:
-                    '/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image2/helmet-3.jpeg',
-                  hasLiveVersion: true,
-                  modUser: 'dotcms.org.1',
-                  retailPrice: '149.95',
-                  contentTypeIcon: 'inventory',
-                  tags: 'snow sports'
-                }
-              }
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'start'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "Next, you'll want to pack all of your ski gear. This includes skis, poles, boots, and helmets. If you're renting equipment, make sure to bring along your rental confirmation and any necessary identification. You'll also want to bring along some extra gear, such as goggles and sunscreen, to protect yourself from the sun and cold."
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'start'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "In addition to ski gear and clothing, there are a few other things you'll want to bring along on your family ski trip. These include:"
-                }
-              ]
-            },
-            {
-              type: 'bulletList',
-              content: [
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Medications: If anyone in your family takes prescription medication, make sure to bring enough for the entire trip. It's also a good idea to bring along some over-the-counter medications, such as ibuprofen and allergy medicine, in case anyone gets sick or has allergies."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Entertainment: If you'll be driving to your ski destination, make sure to bring along some entertainment for the car ride. This can include books, games, and movies to keep everyone entertained."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Snacks and drinks: Pack some snacks and drinks for the car ride and for the slopes. Energy bars, fruit, and sandwiches are all good options. Don't forget to bring along water bottles or a thermos to stay hydrated."
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  type: 'listItem',
-                  attrs: {
-                    textAlign: 'left'
-                  },
-                  content: [
-                    {
-                      type: 'paragraph',
-                      attrs: {
-                        textAlign: 'left'
-                      },
-                      content: [
-                        {
-                          type: 'text',
-                          text: "Personal items: Don't forget to pack your personal items, such as toiletries, phone charger, and camera."
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'left'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "By following this packing list, you'll be well prepared for your ultimate family ski trip. With all of the necessary items packed, you can focus on having a great time on the slopes with your loved ones."
-                }
-              ]
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'left'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: 'Now that you know what to pack, explore where to go for the best skiing this winter.'
-                }
-              ]
-            },
-            {
-              type: 'dotContent',
-              attrs: {
-                data: {
-                  cachettl: '15',
-                  pageTitle: 'French Alps Ski Vacation Packages',
-                  ogTitle: 'French Alps Ski Vacation Packages',
-                  type: 'Winter Adventures',
-                  metaDescription:
-                    'Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!',
-                  ogType: 'website',
-                  inode: 'aa496f5b-c438-4783-a284-7c6a525b52af',
-                  locked: false,
-                  stInode: '91812c8b-0441-4139-8d4d-7423cfb0e979',
-                  contentType: 'Destination',
-                  sitemap: 'true',
-                  identifier: '77f953d1-529e-435c-8195-630efbb6bf58',
-                  image: '2977268787313047a4e1b958b1b8af3e',
-                  shortDescription:
-                    'Courchevel is part of the world’s biggest lift-linked ski area, has the most balanced range of runs in the 3 Vallées to suit all abilities, reliable snow: what more could you wish for? You could come to Les 3 Vallées for weeks and never ski the same slope twice; and there’s no better place to experience it all than at Courchevel! Courchevel’s four separate villages sit amongst the north-facing slopes on the left side of the map and offer probably the most balanced selection of greens, blues, reds, and blacks in the 3 Vallées, making it our top resort here. If you’re up for exploring more however, the ski area is well linked so getting to the other end isn’t too difficult.',
-                  tags: 'skiing,winterenthusiast',
-                  sitemapImportance: '0.8',
-                  folder: '6c8a2ac4-36a7-4b01-b9c0-c2c1d91ddfdb',
-                  sortOrder: 0,
-                  template: 'c2470fd2-9687-4041-ac58-784894171840',
-                  hostName: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                  modDate: '2024-06-06T18:59:56.595+00:00',
-                  searchEngineIndex: 'index,follow,snippet',
-                  title: 'French Alps',
-                  baseType: 'Page',
-                  archived: false,
-                  working: true,
-                  friendlyName: 'French Alps',
-                  live: true,
-                  owner: 'dotcms.org.1',
-                  languageId: 1,
-                  ogDescription:
-                    'Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!',
-                  hasLiveVersion: true,
-                  modUser: 'dotcms.org.1',
-                  contentTypeIcon: 'airplane_ticket',
-                  activities: [
-                    {
-                      publishDate: '2024-06-04 19:24:22.052',
-                      language: {
-                        languageId: 1,
-                        language: 'English',
-                        languageCode: 'en',
-                        country: 'United States',
-                        countryCode: 'US',
-                        languageFlag: 'en_US',
-                        isoCode: 'en-us',
-                        id: 1
-                      },
-                      body: "<p>Admiring the dramatic mountain landscape from atop the ski lift, feeling the cold air nipping at your cheeks, experiencing the rush of adrenaline as you carve the snow &ndash; there's nothing quite like a day on the slopes. And while the mountain conditions are top priority, our ski vacation spots also boast charming towns and lively apr&egrave;s-ski scenes to explore. Factors like resort variety, scenic beauty, annual snowfall and overall atmosphere, we have the world's best places to ski. Wondering where to go? Take a peek at the destinations, and don't forget to vote for your favorites.</p>",
-                      inode: '56a23253-840f-43ee-98ff-06508b99e43d',
-                      host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                      locked: false,
-                      stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
-                      contentType: 'Activity',
-                      altTag: 'Skiing',
-                      identifier: '6a8102b5-fdb0-4ad5-9a5d-e982bcdb54c8',
-                      image: {},
-                      urlTitle: 'skiing',
-                      publishUserName: 'Admin User',
-                      publishUser: 'dotcms.org.1',
-                      creationDate: '2020-09-02 16:42:09.068',
-                      tags: 'skiing,winterenthusiast',
-                      folder: 'SYSTEM_FOLDER',
-                      hasTitleImage: true,
-                      sortOrder: 0,
-                      hostName: 'demo.dotcms.com',
-                      modDate: '2024-06-04 19:24:21.985',
-                      description:
-                        "Skiing is the best family sport because it's so much more than a sport: it's a medium of shared experiences in a living, breathing culture of connection.",
-                      title: 'Skiing',
-                      baseType: 'CONTENT',
-                      archived: false,
-                      ownerName: 'Admin User',
-                      working: true,
-                      live: true,
-                      owner: 'dotcms.org.1',
-                      languageId: 1,
-                      URL_MAP_FOR_CONTENT: '/activities/skiing',
-                      url: '/content.97dded8a-f260-4730-aa99-56c9ea01c16d',
-                      titleImage: 'image',
-                      modUserName: 'Admin User',
-                      urlMap: '/activities/skiing',
-                      hasLiveVersion: true,
-                      modUser: 'dotcms.org.1',
-                      __icon__: 'contentIcon',
-                      contentTypeIcon: 'paragliding',
-                      variant: 'DEFAULT'
-                    },
-                    {
-                      publishDate: '2024-06-19 19:15:58.666',
-                      language: {
-                        languageId: 1,
-                        language: 'English',
-                        languageCode: 'en',
-                        country: 'United States',
-                        countryCode: 'US',
-                        languageFlag: 'en_US',
-                        isoCode: 'en-us',
-                        id: 1
-                      },
-                      body: "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you're a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you're headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",
-                      inode: '669db9d1-9274-4fca-af61-bd54229f049c',
-                      host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                      locked: false,
-                      stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
-                      contentType: 'Activity',
-                      altTag: 'Snowboarding',
-                      identifier: '574f0aec-185a-4160-9c17-6d037b298318',
-                      image: {
-                        identifier: '547f0ab4744d3d0122c4494031a17ebf',
-                        parent: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                        extension: 'jpg',
-                        isContentlet: true,
-                        description: '',
-                        __icon__: '941b3d89-a911-4324-a945-5ebc79921e5bIcon',
-                        mimeType: 'image/webp',
-                        statusIcons:
-                          "<span class='greyDotIcon' style='opacity:.4'></span><span class='liveIcon'></span>",
-                        type: 'dot_asset',
-                        metaData: {
-                          contentType: 'image/webp',
-                          editableAsText: false,
-                          fileSize: 83420,
-                          height: 541,
-                          isImage: true,
-                          length: 83420,
-                          modDate: 1727956930739,
-                          name: 'opening-day-hz.jpg',
-                          path: '9/4/941b3d89-a911-4324-a945-5ebc79921e5b/asset/opening-day-hz.jpg',
-                          sha256:
-                            '2c0695bab6e8afae01b443a2514c8df00f22ef82f9d98ee30f1fe36526e3fbfb',
-                          title: 'opening-day-hz.jpg',
-                          version: 20220201,
-                          width: 1198
-                        },
-                        path: '/',
-                        size: 83420,
-                        name: 'content.941b3d89-a911-4324-a945-5ebc79921e5b',
-                        width: 1198,
-                        underlyingFileName: 'opening-day-hz.jpg',
-                        height: 541
-                      },
-                      urlTitle: 'snowboarding',
-                      publishUserName: 'Admin User',
-                      publishUser: 'dotcms.org.1',
-                      creationDate: '2020-09-02 16:42:07.605',
-                      tags: 'snowboarding,winterenthusiast',
-                      folder: 'SYSTEM_FOLDER',
-                      hasTitleImage: true,
-                      sortOrder: 0,
-                      hostName: 'demo.dotcms.com',
-                      modDate: '2024-06-19 19:15:58.591',
-                      description:
-                        "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late '80s and '90s now are riding with their kids.",
-                      title: 'Snowboarding',
-                      baseType: 'CONTENT',
-                      archived: false,
-                      ownerName: 'Admin User',
-                      working: true,
-                      live: true,
-                      owner: 'dotcms.org.1',
-                      languageId: 1,
-                      URL_MAP_FOR_CONTENT: '/activities/snowboarding',
-                      url: '/content.2f6fe5b8-a2cc-4ecb-a868-db632d695fca',
-                      titleImage: 'image',
-                      modUserName: 'Admin User',
-                      urlMap: '/activities/snowboarding',
-                      hasLiveVersion: true,
-                      modUser: 'dotcms.org.1',
-                      __icon__: 'contentIcon',
-                      contentTypeIcon: 'paragliding',
-                      variant: 'DEFAULT'
-                    },
-                    {
-                      publishDate: '2024-06-04 19:23:44.955',
-                      language: {
-                        languageId: 1,
-                        language: 'English',
-                        languageCode: 'en',
-                        country: 'United States',
-                        countryCode: 'US',
-                        languageFlag: 'en_US',
-                        isoCode: 'en-us',
-                        id: 1
-                      },
-                      body: '<p>Everywhere we look, we are greeted with peaceful waterfalls, tropical rainforests and stretches of ocean surf. These are the perfect conditions for zip lining, rafting, canyoning, cycling and hiking. A leader in wildlife and sustainability initiatives, Costa Rica is rich with interesting creatures. Our guides use their training as naturalists to point out white-faced capuchins, howler monkeys and maybe even a sloth camouflaged in a tree.<br /><br />Our journey begins at Arenal Volcano National Park, where we spend three days hiking volcanoes, canyoning deep in the tropical rainforest and zip lining high above the jungle canopy. Get a glimpse of the majestic Arenal volcano and then soak up natural thermal hot springs with fellow adventurers after the day&rsquo;s explorations. Take in the wild and beautiful Rio Pacuare for two days of heart-pounding whitewater rafting. Spend our final day cycling through the quaint towns and fertile slopes of the Turrialba region.</p>',
-                      inode: '20f4a2ad-66fd-46da-8f72-c7590fe330bd',
-                      host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                      locked: false,
-                      stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
-                      contentType: 'Activity',
-                      altTag: 'Hiking in Costa Rica',
-                      identifier: '6bbead53-3908-471c-966d-9e76c5dd9eba',
-                      image: {},
-                      urlTitle: 'hiking',
-                      publishUserName: 'Admin User',
-                      publishUser: 'dotcms.org.1',
-                      creationDate: '2020-09-02 16:42:10.543',
-                      tags: 'ecoenthusiast,hiking',
-                      folder: 'SYSTEM_FOLDER',
-                      hasTitleImage: true,
-                      sortOrder: 0,
-                      hostName: 'demo.dotcms.com',
-                      modDate: '2024-06-04 19:23:44.882',
-                      description:
-                        'Guided hiking tours where our guides use their training as naturalists to point out animals, unique plants and nature itself.',
-                      title: 'Hiking',
-                      baseType: 'CONTENT',
-                      archived: false,
-                      ownerName: 'Admin User',
-                      working: true,
-                      live: true,
-                      owner: 'dotcms.org.1',
-                      languageId: 1,
-                      URL_MAP_FOR_CONTENT: '/activities/hiking',
-                      url: '/content.fbf02abe-ec2d-4a21-a42f-12c4b0707f71',
-                      titleImage: 'image',
-                      modUserName: 'Admin User',
-                      urlMap: '/activities/hiking',
-                      hasLiveVersion: true,
-                      modUser: 'dotcms.org.1',
-                      __icon__: 'contentIcon',
-                      contentTypeIcon: 'paragliding',
-                      variant: 'DEFAULT'
-                    },
-                    {
-                      publishDate: '2024-06-19 19:21:45.479',
-                      language: {
-                        languageId: 1,
-                        language: 'English',
-                        languageCode: 'en',
-                        country: 'United States',
-                        countryCode: 'US',
-                        languageFlag: 'en_US',
-                        isoCode: 'en-us',
-                        id: 1
-                      },
-                      body: '<p>Cross country, or Nordic skiing, can be a lot like walking on skis, but proficient skiers stride and glide with ease and speed. Only the Nordic skier\'s toe is attached to the ski, permitting that striding glide that carries you "cross country." Flat terrain is best for novices, and there\'s plenty of that at our resort areas.<br /><br />Nordic skiers usually use a "step turn," like ice skaters, but with the classic telemark turn, advanced skiers tackle the winding trails, downhill ski slopes, even isolated backcountry areas drifted deep with snow.</p>',
-                      inode: '80ddff00-63e3-47ac-b8ff-cccf0b3dd73c',
-                      host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                      locked: false,
-                      stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
-                      contentType: 'Activity',
-                      altTag: 'Nordic Skiing',
-                      identifier: 'af5d2a9d-86ed-421d-a9e6-5e5dae0e484a',
-                      image: {
-                        identifier: 'a864aaf94b9addc14c671f4c53a2beff',
-                        parent: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                        extension: 'jpg',
-                        isContentlet: true,
-                        description: '',
-                        __icon__: '2ea7607f-9062-45f7-80cb-7ab17fc39aeeIcon',
-                        mimeType: 'image/jpeg',
-                        statusIcons:
-                          "<span class='greyDotIcon' style='opacity:.4'></span><span class='liveIcon'></span>",
-                        type: 'dot_asset',
-                        metaData: {
-                          contentType: 'image/jpeg',
-                          editableAsText: false,
-                          fileSize: 43692,
-                          height: 270,
-                          isImage: true,
-                          length: 43692,
-                          modDate: 1727956930807,
-                          name: 'nordic-skiing.jpg',
-                          path: 'c/c/cc0aeb0b-1532-4eaa-87d2-63e0a349ee2d/asset/nordic-skiing.jpg',
-                          sha256:
-                            '77c2ab67803b4013f07f724000019c8034fda97c010ba53ddcc9d91adca9ad59',
-                          title: 'nordic-skiing.jpg',
-                          version: 20220201,
-                          width: 270
-                        },
-                        path: '/',
-                        size: 43692,
-                        name: 'content.2ea7607f-9062-45f7-80cb-7ab17fc39aee',
-                        width: 270,
-                        underlyingFileName: 'nordic-skiing.jpg',
-                        height: 270
-                      },
-                      urlTitle: 'nordic-skiing',
-                      publishUserName: 'Admin User',
-                      publishUser: 'dotcms.org.1',
-                      creationDate: '2020-09-02 16:42:06.624',
-                      tags: 'nordic,cross-country skiing,skiing,winterenthusiast',
-                      folder: 'SYSTEM_FOLDER',
-                      hasTitleImage: true,
-                      sortOrder: 0,
-                      hostName: 'demo.dotcms.com',
-                      modDate: '2024-06-19 19:21:45.393',
-                      description:
-                        'Visit a cross-country ski center with groomed trails, rent some gear, and try it out. These carved tracks eliminate 90 percent of your worries about sailing off into the woods because they keep your skis pointed forward.',
-                      title: 'Cross-country Skiing',
-                      baseType: 'CONTENT',
-                      archived: false,
-                      ownerName: 'Admin User',
-                      working: true,
-                      live: true,
-                      owner: 'dotcms.org.1',
-                      languageId: 1,
-                      URL_MAP_FOR_CONTENT: '/activities/nordic-skiing',
-                      url: '/content.796de41e-3fb9-4192-8b21-71baf72b8922',
-                      titleImage: 'image',
-                      modUserName: 'Admin User',
-                      urlMap: '/activities/nordic-skiing',
-                      hasLiveVersion: true,
-                      modUser: 'dotcms.org.1',
-                      __icon__: 'contentIcon',
-                      contentTypeIcon: 'paragliding',
-                      variant: 'DEFAULT'
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              type: 'paragraph',
-              attrs: {
-                textAlign: 'left'
-              },
-              content: [
-                {
-                  type: 'text',
-                  text: "and don't forget to try a new activity. There is more to winter than just downhill skiing."
-                }
-              ]
-            },
-            {
-              type: 'dotContent',
-              attrs: {
-                data: {
-                  hostName: '48190c8c-42c4-46af-8d1a-0cd5db894797',
-                  modDate: '2024-06-19T19:15:58.591+00:00',
-                  description:
-                    "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late '80s and '90s now are riding with their kids.",
-                  title: 'Snowboarding',
-                  body: "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you're a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you're headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",
-                  baseType: 'CONTENT',
-                  inode: '669db9d1-9274-4fca-af61-bd54229f049c',
-                  archived: false,
-                  working: true,
-                  locked: false,
-                  stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
-                  contentType: 'Activity',
-                  live: true,
-                  altTag: 'Snowboarding',
-                  owner: 'dotcms.org.1',
-                  identifier: '574f0aec-185a-4160-9c17-6d037b298318',
-                  image: '547f0ab4744d3d0122c4494031a17ebf',
-                  urlTitle: 'snowboarding',
-                  languageId: 1,
-                  tags: 'snowboarding,winterenthusiast',
-                  hasLiveVersion: true,
-                  folder: 'SYSTEM_FOLDER',
-                  sortOrder: 0,
-                  modUser: 'dotcms.org.1',
-                  contentTypeIcon: 'paragliding'
-                }
-              }
-            }
-          ]
-        },
-        title: 'The Ultimate Family Ski Trip Packing List',
-        baseType: 'CONTENT',
-        archived: false,
-        ownerName: 'Admin User',
-        working: true,
-        live: true,
-        owner: 'dotcms.org.1',
-        languageId: 1,
-        URL_MAP_FOR_CONTENT: '/blog/post/the-ultimate-family-ski-trip-packing-list',
-        ogDescription:
-          'A family ski trip can be a bonding, exhilarating experience. There is something mind clearing about ascending the mountain bundled up in the crisp air, and then soaring down the snow-covered slopes on skis.',
-        url: '/content.33ad0dcf-ee3d-4637-9678-c9a301dd998f',
-        titleImage: 'image',
-        modUserName: 'Admin User',
-        urlMap: '/blog/post/the-ultimate-family-ski-trip-packing-list',
-        hasLiveVersion: true,
-        blogContent_raw:
-          '{\n  "type" : "doc",\n  "content" : [ {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "If you\'re planning a family ski trip, packing can be overwhelming. There\'s so much to consider, from warm clothing to ski gear to entertainment for the car ride. To make things easier, we\'ve put together the ultimate family ski trip packing list to help you make sure you don\'t forget anything important."\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "start"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "Foremost, you\'ll want to pack all of your warm clothing. This includes things like thermal underwear, ski socks, ski jackets, ski pants, and warm hats and gloves. Make sure to pack extra layers in case it gets colder than expected. You\'ll also want to bring along some non-ski clothing for apres-ski activities, such as jeans, sweaters, and comfortable shoes."\n    } ]\n  }, {\n    "type" : "dotContent",\n    "attrs" : {\n      "data" : {\n        "inode" : "bbc615de-9469-44ef-8658-6816ac0a229f",\n        "locked" : false,\n        "stInode" : "a1661fbc-9e84-4c00-bd62-76d633170da3",\n        "contentType" : "Product",\n        "identifier" : "662efaea-ccca-4753-acbc-15683bb3f68d",\n        "image" : "/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image/helmet-2.jpeg",\n        "urlTitle" : "anon-womens-omega-snow-helmet",\n        "productNumber" : "3467050841805-010900",\n        "folder" : "SYSTEM_FOLDER",\n        "sortOrder" : 0,\n        "specifications1" : { },\n        "hostName" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n        "modDate" : "2020-09-02T16:45:20.057+00:00",\n        "description" : "<p>The Anon Women\'s Omega Snow Helmet features the In-shell 360&deg; Boa&reg; Fit System for easy, on-the-go fit adjustment with the turn of a dial. It\'s a full-featured helmet that will have you raving over the slick, well-vented design. In-mold shell construction offers the best in comfort with a sleek, low-profile fit and feel. The Goggle Ventilation Channel brings in fresh air to prevent google fogging. Active Ventilation gives you one-handed control over 12 total vents, so you can fine tune your temperature depending on the weather and activity.<br /><br /></p>",\n        "title" : "Anon Women\'s Omega Snow Helmet",\n        "baseType" : "CONTENT",\n        "archived" : false,\n        "working" : true,\n        "live" : true,\n        "owner" : "dotcms.org.1",\n        "image3" : "/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image3/helmet.jpeg",\n        "salePrice" : "89.99",\n        "languageId" : 1,\n        "image2" : "/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image2/helmet-3.jpeg",\n        "hasLiveVersion" : true,\n        "modUser" : "dotcms.org.1",\n        "retailPrice" : "149.95",\n        "contentTypeIcon" : "inventory"\n      }\n    }\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "start"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "Next, you\'ll want to pack all of your ski gear. This includes skis, poles, boots, and helmets. If you\'re renting equipment, make sure to bring along your rental confirmation and any necessary identification. You\'ll also want to bring along some extra gear, such as goggles and sunscreen, to protect yourself from the sun and cold."\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "start"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "In addition to ski gear and clothing, there are a few other things you\'ll want to bring along on your family ski trip. These include:"\n    } ]\n  }, {\n    "type" : "bulletList",\n    "content" : [ {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Medications: If anyone in your family takes prescription medication, make sure to bring enough for the entire trip. It\'s also a good idea to bring along some over-the-counter medications, such as ibuprofen and allergy medicine, in case anyone gets sick or has allergies."\n        } ]\n      } ]\n    }, {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Entertainment: If you\'ll be driving to your ski destination, make sure to bring along some entertainment for the car ride. This can include books, games, and movies to keep everyone entertained."\n        } ]\n      } ]\n    }, {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Snacks and drinks: Pack some snacks and drinks for the car ride and for the slopes. Energy bars, fruit, and sandwiches are all good options. Don\'t forget to bring along water bottles or a thermos to stay hydrated."\n        } ]\n      } ]\n    }, {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Personal items: Don\'t forget to pack your personal items, such as toiletries, phone charger, and camera."\n        } ]\n      } ]\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "By following this packing list, you\'ll be well prepared for your ultimate family ski trip. With all of the necessary items packed, you can focus on having a great time on the slopes with your loved ones."\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "Now that you know what to pack, explore where to go for the best skiing this winter."\n    } ]\n  }, {\n    "type" : "dotContent",\n    "attrs" : {\n      "data" : {\n        "cachettl" : "15",\n        "pageTitle" : "French Alps Ski Vacation Packages",\n        "ogTitle" : "French Alps Ski Vacation Packages",\n        "type" : "Winter Adventures",\n        "metaDescription" : "Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!",\n        "ogType" : "website",\n        "inode" : "aa496f5b-c438-4783-a284-7c6a525b52af",\n        "locked" : false,\n        "stInode" : "91812c8b-0441-4139-8d4d-7423cfb0e979",\n        "contentType" : "Destination",\n        "sitemap" : "true",\n        "identifier" : "77f953d1-529e-435c-8195-630efbb6bf58",\n        "image" : "2977268787313047a4e1b958b1b8af3e",\n        "shortDescription" : "Courchevel is part of the world’s biggest lift-linked ski area, has the most balanced range of runs in the 3 Vallées to suit all abilities, reliable snow: what more could you wish for? You could come to Les 3 Vallées for weeks and never ski the same slope twice; and there’s no better place to experience it all than at Courchevel! Courchevel’s four separate villages sit amongst the north-facing slopes on the left side of the map and offer probably the most balanced selection of greens, blues, reds, and blacks in the 3 Vallées, making it our top resort here. If you’re up for exploring more however, the ski area is well linked so getting to the other end isn’t too difficult.",\n        "tags" : "skiing,winterenthusiast",\n        "sitemapImportance" : "0.8",\n        "folder" : "6c8a2ac4-36a7-4b01-b9c0-c2c1d91ddfdb",\n        "sortOrder" : 0,\n        "template" : "c2470fd2-9687-4041-ac58-784894171840",\n        "hostName" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n        "modDate" : "2024-06-06T18:59:56.595+00:00",\n        "searchEngineIndex" : "index,follow,snippet",\n        "title" : "French Alps",\n        "baseType" : "Page",\n        "archived" : false,\n        "working" : true,\n        "friendlyName" : "French Alps",\n        "live" : true,\n        "owner" : "dotcms.org.1",\n        "languageId" : 1,\n        "ogDescription" : "Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!",\n        "hasLiveVersion" : true,\n        "modUser" : "dotcms.org.1",\n        "contentTypeIcon" : "airplane_ticket",\n        "activities" : [ {\n          "publishDate" : "2024-06-04 19:24:22.052",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>Admiring the dramatic mountain landscape from atop the ski lift, feeling the cold air nipping at your cheeks, experiencing the rush of adrenaline as you carve the snow &ndash; there\'s nothing quite like a day on the slopes. And while the mountain conditions are top priority, our ski vacation spots also boast charming towns and lively apr&egrave;s-ski scenes to explore. Factors like resort variety, scenic beauty, annual snowfall and overall atmosphere, we have the world\'s best places to ski. Wondering where to go? Take a peek at the destinations, and don\'t forget to vote for your favorites.</p>",\n          "inode" : "56a23253-840f-43ee-98ff-06508b99e43d",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Skiing",\n          "identifier" : "6a8102b5-fdb0-4ad5-9a5d-e982bcdb54c8",\n          "image" : { },\n          "urlTitle" : "skiing",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:09.068",\n          "tags" : "skiing,winterenthusiast",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-04 19:24:21.985",\n          "description" : "Skiing is the best family sport because it\'s so much more than a sport: it\'s a medium of shared experiences in a living, breathing culture of connection.",\n          "title" : "Skiing",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/skiing",\n          "url" : "/content.97dded8a-f260-4730-aa99-56c9ea01c16d",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/skiing",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        }, {\n          "publishDate" : "2024-06-19 19:15:58.666",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you\'re a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you\'re headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",\n          "inode" : "669db9d1-9274-4fca-af61-bd54229f049c",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Snowboarding",\n          "identifier" : "574f0aec-185a-4160-9c17-6d037b298318",\n          "image" : {\n            "identifier" : "547f0ab4744d3d0122c4494031a17ebf",\n            "parent" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n            "extension" : "ukn",\n            "isContentlet" : true,\n            "description" : "",\n            "__icon__" : "941b3d89-a911-4324-a945-5ebc79921e5bIcon",\n            "mimeType" : "application/octet-stream",\n            "statusIcons" : "<span class=\'greyDotIcon\' style=\'opacity:.4\'></span><span class=\'liveIcon\'></span>",\n            "type" : "file_asset",\n            "metaData" : { },\n            "path" : "/",\n            "size" : 0,\n            "name" : "content.941b3d89-a911-4324-a945-5ebc79921e5b",\n            "underlyingFileName" : null\n          },\n          "urlTitle" : "snowboarding",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:07.605",\n          "tags" : "snowboarding,winterenthusiast",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-19 19:15:58.591",\n          "description" : "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late \'80s and \'90s now are riding with their kids.",\n          "title" : "Snowboarding",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/snowboarding",\n          "url" : "/content.2f6fe5b8-a2cc-4ecb-a868-db632d695fca",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/snowboarding",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        }, {\n          "publishDate" : "2024-06-04 19:23:44.955",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>Everywhere we look, we are greeted with peaceful waterfalls, tropical rainforests and stretches of ocean surf. These are the perfect conditions for zip lining, rafting, canyoning, cycling and hiking. A leader in wildlife and sustainability initiatives, Costa Rica is rich with interesting creatures. Our guides use their training as naturalists to point out white-faced capuchins, howler monkeys and maybe even a sloth camouflaged in a tree.<br /><br />Our journey begins at Arenal Volcano National Park, where we spend three days hiking volcanoes, canyoning deep in the tropical rainforest and zip lining high above the jungle canopy. Get a glimpse of the majestic Arenal volcano and then soak up natural thermal hot springs with fellow adventurers after the day&rsquo;s explorations. Take in the wild and beautiful Rio Pacuare for two days of heart-pounding whitewater rafting. Spend our final day cycling through the quaint towns and fertile slopes of the Turrialba region.</p>",\n          "inode" : "20f4a2ad-66fd-46da-8f72-c7590fe330bd",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Hiking in Costa Rica",\n          "identifier" : "6bbead53-3908-471c-966d-9e76c5dd9eba",\n          "image" : { },\n          "urlTitle" : "hiking",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:10.543",\n          "tags" : "ecoenthusiast,hiking",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-04 19:23:44.882",\n          "description" : "Guided hiking tours where our guides use their training as naturalists to point out animals, unique plants and nature itself.",\n          "title" : "Hiking",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/hiking",\n          "url" : "/content.fbf02abe-ec2d-4a21-a42f-12c4b0707f71",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/hiking",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        }, {\n          "publishDate" : "2024-06-19 19:21:45.479",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>Cross country, or Nordic skiing, can be a lot like walking on skis, but proficient skiers stride and glide with ease and speed. Only the Nordic skier\'s toe is attached to the ski, permitting that striding glide that carries you \\"cross country.\\" Flat terrain is best for novices, and there\'s plenty of that at our resort areas.<br /><br />Nordic skiers usually use a \\"step turn,\\" like ice skaters, but with the classic telemark turn, advanced skiers tackle the winding trails, downhill ski slopes, even isolated backcountry areas drifted deep with snow.</p>",\n          "inode" : "80ddff00-63e3-47ac-b8ff-cccf0b3dd73c",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Nordic Skiing",\n          "identifier" : "af5d2a9d-86ed-421d-a9e6-5e5dae0e484a",\n          "image" : {\n            "identifier" : "a864aaf94b9addc14c671f4c53a2beff",\n            "parent" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n            "extension" : "ukn",\n            "isContentlet" : true,\n            "description" : "",\n            "__icon__" : "2ea7607f-9062-45f7-80cb-7ab17fc39aeeIcon",\n            "mimeType" : "application/octet-stream",\n            "statusIcons" : "<span class=\'greyDotIcon\' style=\'opacity:.4\'></span><span class=\'liveIcon\'></span>",\n            "type" : "file_asset",\n            "metaData" : { },\n            "path" : "/",\n            "size" : 0,\n            "name" : "content.2ea7607f-9062-45f7-80cb-7ab17fc39aee",\n            "underlyingFileName" : null\n          },\n          "urlTitle" : "nordic-skiing",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:06.624",\n          "tags" : "nordic,cross-country skiing,skiing,winterenthusiast",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-19 19:21:45.393",\n          "description" : "Visit a cross-country ski center with groomed trails, rent some gear, and try it out. These carved tracks eliminate 90 percent of your worries about sailing off into the woods because they keep your skis pointed forward.",\n          "title" : "Cross-country Skiing",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/nordic-skiing",\n          "url" : "/content.796de41e-3fb9-4192-8b21-71baf72b8922",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/nordic-skiing",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        } ]\n      }\n    }\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "and don\'t forget to try a new activity. There is more to winter than just downhill skiing."\n    } ]\n  }, {\n    "type" : "dotContent",\n    "attrs" : {\n      "data" : {\n        "hostName" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n        "modDate" : "2024-06-19T19:15:58.591+00:00",\n        "description" : "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late \'80s and \'90s now are riding with their kids.",\n        "title" : "Snowboarding",\n        "body" : "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you\'re a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you\'re headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",\n        "baseType" : "CONTENT",\n        "inode" : "669db9d1-9274-4fca-af61-bd54229f049c",\n        "archived" : false,\n        "working" : true,\n        "locked" : false,\n        "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n        "contentType" : "Activity",\n        "live" : true,\n        "altTag" : "Snowboarding",\n        "owner" : "dotcms.org.1",\n        "identifier" : "574f0aec-185a-4160-9c17-6d037b298318",\n        "image" : "547f0ab4744d3d0122c4494031a17ebf",\n        "urlTitle" : "snowboarding",\n        "languageId" : 1,\n        "tags" : "snowboarding,winterenthusiast",\n        "hasLiveVersion" : true,\n        "folder" : "SYSTEM_FOLDER",\n        "sortOrder" : 0,\n        "modUser" : "dotcms.org.1",\n        "contentTypeIcon" : "paragliding"\n      }\n    }\n  } ]\n}',
-        modUser: 'dotcms.org.1',
-        teaser: 'A family ski trip can be a bonding',
-        __icon__: 'contentIcon',
-        contentTypeIcon: 'file_copy',
-        variant: 'DEFAULT'
-      }
+      // {
+      //   pageTitle: 'Ecotourism in Costa Rica',
+      //   publishDate: '2024-10-03 12:07:00.135',
+      //   postingDate: '2024-09-02 21:33:00.0',
+      //   metaDescription:
+      //     'Ecotourism in Costa Rica is a robust industry because the country was one of the earliest adopters of connecting nature/wildlife conservation with responsible travel.',
+      //   ogType: 'article',
+      //   inode: '5c340386-568c-407d-94fb-b1c4bd5ca2c1',
+      //   host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //   locked: false,
+      //   stInode: '799f176a-d32e-4844-a07c-1b5fcd107578',
+      //   contentType: 'Blog',
+      //   sitemap: 'true',
+      //   identifier: 'a7df3f39-a18a-4b16-b369-aa9d7acb0b27',
+      //   image: 'a5e07aeec178670a0ec5413ab653a45b',
+      //   urlTitle: 'ecotourism-in-costa-rica',
+      //   publishUserName: 'Admin User',
+      //   publishUser: 'dotcms.org.1',
+      //   creationDate: '2020-09-18 21:35:39.959',
+      //   tags: 'ecoenthusiast,hiking,zip-lining',
+      //   sitemapImportance: '0.6',
+      //   folder: 'SYSTEM_FOLDER',
+      //   hasTitleImage: true,
+      //   sortOrder: 0,
+      //   hostName: 'demo.dotcms.com',
+      //   modDate: '2024-06-13 18:22:34.376',
+      //   searchEngineIndex: 'index,follow,snippet',
+      //   blogContent: {
+      //     type: 'doc',
+      //     content: [
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'left'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "Ecotourism in Costa Rica has become increasingly popular in recent years, and it's no wonder why. With its breathtaking natural beauty, rich biodiversity, and commitment to sustainability, Costa Rica is the perfect destination for those looking to experience the great outdoors while also minimizing their impact on the environment."
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'start'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "One of the main attractions of ecotourism in Costa Rica is the country's incredible diversity of flora and fauna. From the lush rainforests of the Caribbean coast to the dry forests of the Pacific northwest, Costa Rica is home to a wide range of ecosystems that are home to an equally diverse array of species. Whether you're interested in spotting rare birds, observing monkeys and other primates, or just enjoying the beauty of the natural world, Costa Rica has something to offer."
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'start'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: 'In addition to its natural beauty, Costa Rica is also known for its commitment to sustainability. The country has made a concerted effort to protect its natural resources, and as a result, it has become a leader in the field of eco-tourism. Many hotels and resorts in Costa Rica are certified as eco-friendly, and the country has implemented a number of initiatives to reduce its carbon footprint and protect its environment.'
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'start'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "If you're interested in experiencing the natural beauty of Costa Rica while also minimizing your impact on the environment, there are a number of ecotourism activities to choose from. Some popular options include:"
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'bulletList',
+      //         content: [
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Hiking: Costa Rica is home to a number of beautiful national parks and reserves, many of which offer hiking trails of varying lengths and difficulty levels. Whether you're interested in exploring the rainforest, climbing a volcano, or just enjoying a leisurely stroll through the countryside, there's a hike for everyone in Costa Rica."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           },
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Wildlife viewing: Costa Rica is home to an incredible array of wildlife, and there are plenty of opportunities to observe it up close. Whether you're interested in birdwatching, observing monkeys and other primates, or just soaking up the sights and sounds of the natural world, there's something for everyone in Costa Rica."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           },
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Surfing: Costa Rica's Pacific coast is home to some of the best surfing spots in the world, and there are plenty of opportunities to catch a wave. Whether you're a seasoned pro or a beginner, you'll find a spot that's perfect for your skill level."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           },
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Kayaking: Costa Rica is home to a number of rivers and waterways, and kayaking is a great way to explore them. Whether you're interested in paddling through the rainforest, fishing, or just enjoying the scenery, there are plenty of options to choose from."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'start'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "Overall, ecotourism in Costa Rica is a great way to experience the country's natural beauty while also minimizing your impact on the environment. With a wide range of activities to choose from and a commitment to sustainability, Costa Rica is the perfect destination for nature lovers of all kinds."
+      //           }
+      //         ]
+      //       }
+      //     ]
+      //   },
+      //   title: 'Ecotourism in Costa Rica',
+      //   baseType: 'CONTENT',
+      //   archived: false,
+      //   ownerName: 'Admin User',
+      //   working: true,
+      //   live: true,
+      //   owner: 'dotcms.org.1',
+      //   languageId: 1,
+      //   URL_MAP_FOR_CONTENT: '/blog/post/ecotourism-in-costa-rica',
+      //   ogDescription:
+      //     "Overview of Costa Rica's sustainable travel opportunities. It highlights the country's rich biodiversity, protected areas, and commitment to conservation. The page emphasizes the benefits of ecotourism, such as supporting local communities and preserving natural resources. Visitors can explore national parks, engage in eco-friendly activities, and immerse themselves in Costa Rica's remarkable natural beauty.",
+      //   url: '/content.7a835184-9bba-411a-bd0d-6bd9f16fb508',
+      //   titleImage: 'image',
+      //   modUserName: 'Admin User',
+      //   urlMap: '/blog/post/ecotourism-in-costa-rica',
+      //   hasLiveVersion: true,
+      //   blogContent_raw:
+      //     '{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Ecotourism in Costa Rica has become increasingly popular in recent years, and it\'s no wonder why. With its breathtaking natural beauty, rich biodiversity, and commitment to sustainability, Costa Rica is the perfect destination for those looking to experience the great outdoors while also minimizing their impact on the environment."}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"One of the main attractions of ecotourism in Costa Rica is the country\'s incredible diversity of flora and fauna. From the lush rainforests of the Caribbean coast to the dry forests of the Pacific northwest, Costa Rica is home to a wide range of ecosystems that are home to an equally diverse array of species. Whether you\'re interested in spotting rare birds, observing monkeys and other primates, or just enjoying the beauty of the natural world, Costa Rica has something to offer."}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"In addition to its natural beauty, Costa Rica is also known for its commitment to sustainability. The country has made a concerted effort to protect its natural resources, and as a result, it has become a leader in the field of eco-tourism. Many hotels and resorts in Costa Rica are certified as eco-friendly, and the country has implemented a number of initiatives to reduce its carbon footprint and protect its environment."}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"If you\'re interested in experiencing the natural beauty of Costa Rica while also minimizing your impact on the environment, there are a number of ecotourism activities to choose from. Some popular options include:"}]},{"type":"bulletList","content":[{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Hiking: Costa Rica is home to a number of beautiful national parks and reserves, many of which offer hiking trails of varying lengths and difficulty levels. Whether you\'re interested in exploring the rainforest, climbing a volcano, or just enjoying a leisurely stroll through the countryside, there\'s a hike for everyone in Costa Rica."}]}]},{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Wildlife viewing: Costa Rica is home to an incredible array of wildlife, and there are plenty of opportunities to observe it up close. Whether you\'re interested in birdwatching, observing monkeys and other primates, or just soaking up the sights and sounds of the natural world, there\'s something for everyone in Costa Rica."}]}]},{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Surfing: Costa Rica\'s Pacific coast is home to some of the best surfing spots in the world, and there are plenty of opportunities to catch a wave. Whether you\'re a seasoned pro or a beginner, you\'ll find a spot that\'s perfect for your skill level."}]}]},{"type":"listItem","attrs":{"textAlign":"left"},"content":[{"type":"paragraph","attrs":{"textAlign":"left"},"content":[{"type":"text","text":"Kayaking: Costa Rica is home to a number of rivers and waterways, and kayaking is a great way to explore them. Whether you\'re interested in paddling through the rainforest, fishing, or just enjoying the scenery, there are plenty of options to choose from."}]}]}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"Overall, ecotourism in Costa Rica is a great way to experience the country\'s natural beauty while also minimizing your impact on the environment. With a wide range of activities to choose from and a commitment to sustainability, Costa Rica is the perfect destination for nature lovers of all kinds."}]}]}',
+      //   modUser: 'dotcms.org.1',
+      //   teaser:
+      //     'Ecotourism in Costa Rica is a robust industry because the country was one of the earliest adopters of connecting nature/wildlife conservation with responsible travel.',
+      //   __icon__: 'contentIcon',
+      //   contentTypeIcon: 'file_copy',
+      //   variant: 'DEFAULT'
+      // },
+      // {
+      //   ogTitle: 'The Ultimate Family Ski Trip Packing List',
+      //   publishDate: '2024-05-30 16:52:08.123',
+      //   postingDate: '2019-07-16 20:55:00.0',
+      //   metaDescription:
+      //     'exhilarating experience. There is something mind clearing about ascending the mountain bundled up in the crisp air',
+      //   ogType: 'article',
+      //   inode: 'd29e0f84-8bfe-44c0-bc97-f320e4cd87de',
+      //   host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //   locked: false,
+      //   stInode: '799f176a-d32e-4844-a07c-1b5fcd107578',
+      //   contentType: 'Blog',
+      //   sitemap: 'true',
+      //   identifier: '3d6fa2a4-2b48-4421-a2f5-b6518a7c0830',
+      //   image: 'abeb7f4eea9f95bb8b298de3202bf22b',
+      //   urlTitle: 'the-ultimate-family-ski-trip-packing-list',
+      //   publishUserName: 'Admin User',
+      //   publishUser: 'dotcms.org.1',
+      //   creationDate: '2020-09-02 16:43:24.184',
+      //   ogImage: 'c6f7a19c-b850-4725-b76d-0e085e0c329c',
+      //   tags: 'family,skiing,vaction',
+      //   sitemapImportance: '0.5',
+      //   folder: 'SYSTEM_FOLDER',
+      //   hasTitleImage: true,
+      //   sortOrder: 0,
+      //   hostName: 'demo.dotcms.com',
+      //   modDate: '2024-05-30 16:52:07.934',
+      //   searchEngineIndex: 'index,follow,snippet',
+      //   blogContent: {
+      //     type: 'doc',
+      //     content: [
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'left'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "If you're planning a family ski trip, packing can be overwhelming. There's so much to consider, from warm clothing to ski gear to entertainment for the car ride. To make things easier, we've put together the ultimate family ski trip packing list to help you make sure you don't forget anything important."
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'start'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "Foremost, you'll want to pack all of your warm clothing. This includes things like thermal underwear, ski socks, ski jackets, ski pants, and warm hats and gloves. Make sure to pack extra layers in case it gets colder than expected. You'll also want to bring along some non-ski clothing for apres-ski activities, such as jeans, sweaters, and comfortable shoes."
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'dotContent',
+      //         attrs: {
+      //           data: {
+      //             inode: 'bbc615de-9469-44ef-8658-6816ac0a229f',
+      //             locked: false,
+      //             stInode: 'a1661fbc-9e84-4c00-bd62-76d633170da3',
+      //             contentType: 'Product',
+      //             identifier: '662efaea-ccca-4753-acbc-15683bb3f68d',
+      //             image:
+      //               '/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image/helmet-2.jpeg',
+      //             urlTitle: 'anon-womens-omega-snow-helmet',
+      //             productNumber: '3467050841805-010900',
+      //             folder: 'SYSTEM_FOLDER',
+      //             sortOrder: 0,
+      //             specifications1: {},
+      //             hostName: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //             modDate: '2020-09-02T16:45:20.057+00:00',
+      //             description:
+      //               "<p>The Anon Women's Omega Snow Helmet features the In-shell 360&deg; Boa&reg; Fit System for easy, on-the-go fit adjustment with the turn of a dial. It's a full-featured helmet that will have you raving over the slick, well-vented design. In-mold shell construction offers the best in comfort with a sleek, low-profile fit and feel. The Goggle Ventilation Channel brings in fresh air to prevent google fogging. Active Ventilation gives you one-handed control over 12 total vents, so you can fine tune your temperature depending on the weather and activity.<br /><br /></p>",
+      //             title: "Anon Women's Omega Snow Helmet",
+      //             baseType: 'CONTENT',
+      //             archived: false,
+      //             working: true,
+      //             live: true,
+      //             owner: 'dotcms.org.1',
+      //             image3:
+      //               '/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image3/helmet.jpeg',
+      //             salePrice: '89.99',
+      //             languageId: 1,
+      //             image2:
+      //               '/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image2/helmet-3.jpeg',
+      //             hasLiveVersion: true,
+      //             modUser: 'dotcms.org.1',
+      //             retailPrice: '149.95',
+      //             contentTypeIcon: 'inventory',
+      //             tags: 'snow sports'
+      //           }
+      //         }
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'start'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "Next, you'll want to pack all of your ski gear. This includes skis, poles, boots, and helmets. If you're renting equipment, make sure to bring along your rental confirmation and any necessary identification. You'll also want to bring along some extra gear, such as goggles and sunscreen, to protect yourself from the sun and cold."
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'start'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "In addition to ski gear and clothing, there are a few other things you'll want to bring along on your family ski trip. These include:"
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'bulletList',
+      //         content: [
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Medications: If anyone in your family takes prescription medication, make sure to bring enough for the entire trip. It's also a good idea to bring along some over-the-counter medications, such as ibuprofen and allergy medicine, in case anyone gets sick or has allergies."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           },
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Entertainment: If you'll be driving to your ski destination, make sure to bring along some entertainment for the car ride. This can include books, games, and movies to keep everyone entertained."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           },
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Snacks and drinks: Pack some snacks and drinks for the car ride and for the slopes. Energy bars, fruit, and sandwiches are all good options. Don't forget to bring along water bottles or a thermos to stay hydrated."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           },
+      //           {
+      //             type: 'listItem',
+      //             attrs: {
+      //               textAlign: 'left'
+      //             },
+      //             content: [
+      //               {
+      //                 type: 'paragraph',
+      //                 attrs: {
+      //                   textAlign: 'left'
+      //                 },
+      //                 content: [
+      //                   {
+      //                     type: 'text',
+      //                     text: "Personal items: Don't forget to pack your personal items, such as toiletries, phone charger, and camera."
+      //                   }
+      //                 ]
+      //               }
+      //             ]
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'left'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "By following this packing list, you'll be well prepared for your ultimate family ski trip. With all of the necessary items packed, you can focus on having a great time on the slopes with your loved ones."
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'left'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: 'Now that you know what to pack, explore where to go for the best skiing this winter.'
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'dotContent',
+      //         attrs: {
+      //           data: {
+      //             cachettl: '15',
+      //             pageTitle: 'French Alps Ski Vacation Packages',
+      //             ogTitle: 'French Alps Ski Vacation Packages',
+      //             type: 'Winter Adventures',
+      //             metaDescription:
+      //               'Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!',
+      //             ogType: 'website',
+      //             inode: 'aa496f5b-c438-4783-a284-7c6a525b52af',
+      //             locked: false,
+      //             stInode: '91812c8b-0441-4139-8d4d-7423cfb0e979',
+      //             contentType: 'Destination',
+      //             sitemap: 'true',
+      //             identifier: '77f953d1-529e-435c-8195-630efbb6bf58',
+      //             image: '2977268787313047a4e1b958b1b8af3e',
+      //             shortDescription:
+      //               'Courchevel is part of the world’s biggest lift-linked ski area, has the most balanced range of runs in the 3 Vallées to suit all abilities, reliable snow: what more could you wish for? You could come to Les 3 Vallées for weeks and never ski the same slope twice; and there’s no better place to experience it all than at Courchevel! Courchevel’s four separate villages sit amongst the north-facing slopes on the left side of the map and offer probably the most balanced selection of greens, blues, reds, and blacks in the 3 Vallées, making it our top resort here. If you’re up for exploring more however, the ski area is well linked so getting to the other end isn’t too difficult.',
+      //             tags: 'skiing,winterenthusiast',
+      //             sitemapImportance: '0.8',
+      //             folder: '6c8a2ac4-36a7-4b01-b9c0-c2c1d91ddfdb',
+      //             sortOrder: 0,
+      //             template: 'c2470fd2-9687-4041-ac58-784894171840',
+      //             hostName: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //             modDate: '2024-06-06T18:59:56.595+00:00',
+      //             searchEngineIndex: 'index,follow,snippet',
+      //             title: 'French Alps',
+      //             baseType: 'Page',
+      //             archived: false,
+      //             working: true,
+      //             friendlyName: 'French Alps',
+      //             live: true,
+      //             owner: 'dotcms.org.1',
+      //             languageId: 1,
+      //             ogDescription:
+      //               'Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!',
+      //             hasLiveVersion: true,
+      //             modUser: 'dotcms.org.1',
+      //             contentTypeIcon: 'airplane_ticket',
+      //             activities: [
+      //               {
+      //                 publishDate: '2024-06-04 19:24:22.052',
+      //                 language: {
+      //                   languageId: 1,
+      //                   language: 'English',
+      //                   languageCode: 'en',
+      //                   country: 'United States',
+      //                   countryCode: 'US',
+      //                   languageFlag: 'en_US',
+      //                   isoCode: 'en-us',
+      //                   id: 1
+      //                 },
+      //                 body: "<p>Admiring the dramatic mountain landscape from atop the ski lift, feeling the cold air nipping at your cheeks, experiencing the rush of adrenaline as you carve the snow &ndash; there's nothing quite like a day on the slopes. And while the mountain conditions are top priority, our ski vacation spots also boast charming towns and lively apr&egrave;s-ski scenes to explore. Factors like resort variety, scenic beauty, annual snowfall and overall atmosphere, we have the world's best places to ski. Wondering where to go? Take a peek at the destinations, and don't forget to vote for your favorites.</p>",
+      //                 inode: '56a23253-840f-43ee-98ff-06508b99e43d',
+      //                 host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //                 locked: false,
+      //                 stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
+      //                 contentType: 'Activity',
+      //                 altTag: 'Skiing',
+      //                 identifier: '6a8102b5-fdb0-4ad5-9a5d-e982bcdb54c8',
+      //                 image: {},
+      //                 urlTitle: 'skiing',
+      //                 publishUserName: 'Admin User',
+      //                 publishUser: 'dotcms.org.1',
+      //                 creationDate: '2020-09-02 16:42:09.068',
+      //                 tags: 'skiing,winterenthusiast',
+      //                 folder: 'SYSTEM_FOLDER',
+      //                 hasTitleImage: true,
+      //                 sortOrder: 0,
+      //                 hostName: 'demo.dotcms.com',
+      //                 modDate: '2024-06-04 19:24:21.985',
+      //                 description:
+      //                   "Skiing is the best family sport because it's so much more than a sport: it's a medium of shared experiences in a living, breathing culture of connection.",
+      //                 title: 'Skiing',
+      //                 baseType: 'CONTENT',
+      //                 archived: false,
+      //                 ownerName: 'Admin User',
+      //                 working: true,
+      //                 live: true,
+      //                 owner: 'dotcms.org.1',
+      //                 languageId: 1,
+      //                 URL_MAP_FOR_CONTENT: '/activities/skiing',
+      //                 url: '/content.97dded8a-f260-4730-aa99-56c9ea01c16d',
+      //                 titleImage: 'image',
+      //                 modUserName: 'Admin User',
+      //                 urlMap: '/activities/skiing',
+      //                 hasLiveVersion: true,
+      //                 modUser: 'dotcms.org.1',
+      //                 __icon__: 'contentIcon',
+      //                 contentTypeIcon: 'paragliding',
+      //                 variant: 'DEFAULT'
+      //               },
+      //               {
+      //                 publishDate: '2024-06-19 19:15:58.666',
+      //                 language: {
+      //                   languageId: 1,
+      //                   language: 'English',
+      //                   languageCode: 'en',
+      //                   country: 'United States',
+      //                   countryCode: 'US',
+      //                   languageFlag: 'en_US',
+      //                   isoCode: 'en-us',
+      //                   id: 1
+      //                 },
+      //                 body: "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you're a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you're headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",
+      //                 inode: '669db9d1-9274-4fca-af61-bd54229f049c',
+      //                 host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //                 locked: false,
+      //                 stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
+      //                 contentType: 'Activity',
+      //                 altTag: 'Snowboarding',
+      //                 identifier: '574f0aec-185a-4160-9c17-6d037b298318',
+      //                 image: {
+      //                   identifier: '547f0ab4744d3d0122c4494031a17ebf',
+      //                   parent: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //                   extension: 'jpg',
+      //                   isContentlet: true,
+      //                   description: '',
+      //                   __icon__: '941b3d89-a911-4324-a945-5ebc79921e5bIcon',
+      //                   mimeType: 'image/webp',
+      //                   statusIcons:
+      //                     "<span class='greyDotIcon' style='opacity:.4'></span><span class='liveIcon'></span>",
+      //                   type: 'dot_asset',
+      //                   metaData: {
+      //                     contentType: 'image/webp',
+      //                     editableAsText: false,
+      //                     fileSize: 83420,
+      //                     height: 541,
+      //                     isImage: true,
+      //                     length: 83420,
+      //                     modDate: 1727956930739,
+      //                     name: 'opening-day-hz.jpg',
+      //                     path: '9/4/941b3d89-a911-4324-a945-5ebc79921e5b/asset/opening-day-hz.jpg',
+      //                     sha256:
+      //                       '2c0695bab6e8afae01b443a2514c8df00f22ef82f9d98ee30f1fe36526e3fbfb',
+      //                     title: 'opening-day-hz.jpg',
+      //                     version: 20220201,
+      //                     width: 1198
+      //                   },
+      //                   path: '/',
+      //                   size: 83420,
+      //                   name: 'content.941b3d89-a911-4324-a945-5ebc79921e5b',
+      //                   width: 1198,
+      //                   underlyingFileName: 'opening-day-hz.jpg',
+      //                   height: 541
+      //                 },
+      //                 urlTitle: 'snowboarding',
+      //                 publishUserName: 'Admin User',
+      //                 publishUser: 'dotcms.org.1',
+      //                 creationDate: '2020-09-02 16:42:07.605',
+      //                 tags: 'snowboarding,winterenthusiast',
+      //                 folder: 'SYSTEM_FOLDER',
+      //                 hasTitleImage: true,
+      //                 sortOrder: 0,
+      //                 hostName: 'demo.dotcms.com',
+      //                 modDate: '2024-06-19 19:15:58.591',
+      //                 description:
+      //                   "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late '80s and '90s now are riding with their kids.",
+      //                 title: 'Snowboarding',
+      //                 baseType: 'CONTENT',
+      //                 archived: false,
+      //                 ownerName: 'Admin User',
+      //                 working: true,
+      //                 live: true,
+      //                 owner: 'dotcms.org.1',
+      //                 languageId: 1,
+      //                 URL_MAP_FOR_CONTENT: '/activities/snowboarding',
+      //                 url: '/content.2f6fe5b8-a2cc-4ecb-a868-db632d695fca',
+      //                 titleImage: 'image',
+      //                 modUserName: 'Admin User',
+      //                 urlMap: '/activities/snowboarding',
+      //                 hasLiveVersion: true,
+      //                 modUser: 'dotcms.org.1',
+      //                 __icon__: 'contentIcon',
+      //                 contentTypeIcon: 'paragliding',
+      //                 variant: 'DEFAULT'
+      //               },
+      //               {
+      //                 publishDate: '2024-06-04 19:23:44.955',
+      //                 language: {
+      //                   languageId: 1,
+      //                   language: 'English',
+      //                   languageCode: 'en',
+      //                   country: 'United States',
+      //                   countryCode: 'US',
+      //                   languageFlag: 'en_US',
+      //                   isoCode: 'en-us',
+      //                   id: 1
+      //                 },
+      //                 body: '<p>Everywhere we look, we are greeted with peaceful waterfalls, tropical rainforests and stretches of ocean surf. These are the perfect conditions for zip lining, rafting, canyoning, cycling and hiking. A leader in wildlife and sustainability initiatives, Costa Rica is rich with interesting creatures. Our guides use their training as naturalists to point out white-faced capuchins, howler monkeys and maybe even a sloth camouflaged in a tree.<br /><br />Our journey begins at Arenal Volcano National Park, where we spend three days hiking volcanoes, canyoning deep in the tropical rainforest and zip lining high above the jungle canopy. Get a glimpse of the majestic Arenal volcano and then soak up natural thermal hot springs with fellow adventurers after the day&rsquo;s explorations. Take in the wild and beautiful Rio Pacuare for two days of heart-pounding whitewater rafting. Spend our final day cycling through the quaint towns and fertile slopes of the Turrialba region.</p>',
+      //                 inode: '20f4a2ad-66fd-46da-8f72-c7590fe330bd',
+      //                 host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //                 locked: false,
+      //                 stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
+      //                 contentType: 'Activity',
+      //                 altTag: 'Hiking in Costa Rica',
+      //                 identifier: '6bbead53-3908-471c-966d-9e76c5dd9eba',
+      //                 image: {},
+      //                 urlTitle: 'hiking',
+      //                 publishUserName: 'Admin User',
+      //                 publishUser: 'dotcms.org.1',
+      //                 creationDate: '2020-09-02 16:42:10.543',
+      //                 tags: 'ecoenthusiast,hiking',
+      //                 folder: 'SYSTEM_FOLDER',
+      //                 hasTitleImage: true,
+      //                 sortOrder: 0,
+      //                 hostName: 'demo.dotcms.com',
+      //                 modDate: '2024-06-04 19:23:44.882',
+      //                 description:
+      //                   'Guided hiking tours where our guides use their training as naturalists to point out animals, unique plants and nature itself.',
+      //                 title: 'Hiking',
+      //                 baseType: 'CONTENT',
+      //                 archived: false,
+      //                 ownerName: 'Admin User',
+      //                 working: true,
+      //                 live: true,
+      //                 owner: 'dotcms.org.1',
+      //                 languageId: 1,
+      //                 URL_MAP_FOR_CONTENT: '/activities/hiking',
+      //                 url: '/content.fbf02abe-ec2d-4a21-a42f-12c4b0707f71',
+      //                 titleImage: 'image',
+      //                 modUserName: 'Admin User',
+      //                 urlMap: '/activities/hiking',
+      //                 hasLiveVersion: true,
+      //                 modUser: 'dotcms.org.1',
+      //                 __icon__: 'contentIcon',
+      //                 contentTypeIcon: 'paragliding',
+      //                 variant: 'DEFAULT'
+      //               },
+      //               {
+      //                 publishDate: '2024-06-19 19:21:45.479',
+      //                 language: {
+      //                   languageId: 1,
+      //                   language: 'English',
+      //                   languageCode: 'en',
+      //                   country: 'United States',
+      //                   countryCode: 'US',
+      //                   languageFlag: 'en_US',
+      //                   isoCode: 'en-us',
+      //                   id: 1
+      //                 },
+      //                 body: '<p>Cross country, or Nordic skiing, can be a lot like walking on skis, but proficient skiers stride and glide with ease and speed. Only the Nordic skier\'s toe is attached to the ski, permitting that striding glide that carries you "cross country." Flat terrain is best for novices, and there\'s plenty of that at our resort areas.<br /><br />Nordic skiers usually use a "step turn," like ice skaters, but with the classic telemark turn, advanced skiers tackle the winding trails, downhill ski slopes, even isolated backcountry areas drifted deep with snow.</p>',
+      //                 inode: '80ddff00-63e3-47ac-b8ff-cccf0b3dd73c',
+      //                 host: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //                 locked: false,
+      //                 stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
+      //                 contentType: 'Activity',
+      //                 altTag: 'Nordic Skiing',
+      //                 identifier: 'af5d2a9d-86ed-421d-a9e6-5e5dae0e484a',
+      //                 image: {
+      //                   identifier: 'a864aaf94b9addc14c671f4c53a2beff',
+      //                   parent: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //                   extension: 'jpg',
+      //                   isContentlet: true,
+      //                   description: '',
+      //                   __icon__: '2ea7607f-9062-45f7-80cb-7ab17fc39aeeIcon',
+      //                   mimeType: 'image/jpeg',
+      //                   statusIcons:
+      //                     "<span class='greyDotIcon' style='opacity:.4'></span><span class='liveIcon'></span>",
+      //                   type: 'dot_asset',
+      //                   metaData: {
+      //                     contentType: 'image/jpeg',
+      //                     editableAsText: false,
+      //                     fileSize: 43692,
+      //                     height: 270,
+      //                     isImage: true,
+      //                     length: 43692,
+      //                     modDate: 1727956930807,
+      //                     name: 'nordic-skiing.jpg',
+      //                     path: 'c/c/cc0aeb0b-1532-4eaa-87d2-63e0a349ee2d/asset/nordic-skiing.jpg',
+      //                     sha256:
+      //                       '77c2ab67803b4013f07f724000019c8034fda97c010ba53ddcc9d91adca9ad59',
+      //                     title: 'nordic-skiing.jpg',
+      //                     version: 20220201,
+      //                     width: 270
+      //                   },
+      //                   path: '/',
+      //                   size: 43692,
+      //                   name: 'content.2ea7607f-9062-45f7-80cb-7ab17fc39aee',
+      //                   width: 270,
+      //                   underlyingFileName: 'nordic-skiing.jpg',
+      //                   height: 270
+      //                 },
+      //                 urlTitle: 'nordic-skiing',
+      //                 publishUserName: 'Admin User',
+      //                 publishUser: 'dotcms.org.1',
+      //                 creationDate: '2020-09-02 16:42:06.624',
+      //                 tags: 'nordic,cross-country skiing,skiing,winterenthusiast',
+      //                 folder: 'SYSTEM_FOLDER',
+      //                 hasTitleImage: true,
+      //                 sortOrder: 0,
+      //                 hostName: 'demo.dotcms.com',
+      //                 modDate: '2024-06-19 19:21:45.393',
+      //                 description:
+      //                   'Visit a cross-country ski center with groomed trails, rent some gear, and try it out. These carved tracks eliminate 90 percent of your worries about sailing off into the woods because they keep your skis pointed forward.',
+      //                 title: 'Cross-country Skiing',
+      //                 baseType: 'CONTENT',
+      //                 archived: false,
+      //                 ownerName: 'Admin User',
+      //                 working: true,
+      //                 live: true,
+      //                 owner: 'dotcms.org.1',
+      //                 languageId: 1,
+      //                 URL_MAP_FOR_CONTENT: '/activities/nordic-skiing',
+      //                 url: '/content.796de41e-3fb9-4192-8b21-71baf72b8922',
+      //                 titleImage: 'image',
+      //                 modUserName: 'Admin User',
+      //                 urlMap: '/activities/nordic-skiing',
+      //                 hasLiveVersion: true,
+      //                 modUser: 'dotcms.org.1',
+      //                 __icon__: 'contentIcon',
+      //                 contentTypeIcon: 'paragliding',
+      //                 variant: 'DEFAULT'
+      //               }
+      //             ]
+      //           }
+      //         }
+      //       },
+      //       {
+      //         type: 'paragraph',
+      //         attrs: {
+      //           textAlign: 'left'
+      //         },
+      //         content: [
+      //           {
+      //             type: 'text',
+      //             text: "and don't forget to try a new activity. There is more to winter than just downhill skiing."
+      //           }
+      //         ]
+      //       },
+      //       {
+      //         type: 'dotContent',
+      //         attrs: {
+      //           data: {
+      //             hostName: '48190c8c-42c4-46af-8d1a-0cd5db894797',
+      //             modDate: '2024-06-19T19:15:58.591+00:00',
+      //             description:
+      //               "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late '80s and '90s now are riding with their kids.",
+      //             title: 'Snowboarding',
+      //             body: "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you're a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you're headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",
+      //             baseType: 'CONTENT',
+      //             inode: '669db9d1-9274-4fca-af61-bd54229f049c',
+      //             archived: false,
+      //             working: true,
+      //             locked: false,
+      //             stInode: '778f3246-9b11-4a2a-a101-e7fdf111bdad',
+      //             contentType: 'Activity',
+      //             live: true,
+      //             altTag: 'Snowboarding',
+      //             owner: 'dotcms.org.1',
+      //             identifier: '574f0aec-185a-4160-9c17-6d037b298318',
+      //             image: '547f0ab4744d3d0122c4494031a17ebf',
+      //             urlTitle: 'snowboarding',
+      //             languageId: 1,
+      //             tags: 'snowboarding,winterenthusiast',
+      //             hasLiveVersion: true,
+      //             folder: 'SYSTEM_FOLDER',
+      //             sortOrder: 0,
+      //             modUser: 'dotcms.org.1',
+      //             contentTypeIcon: 'paragliding'
+      //           }
+      //         }
+      //       }
+      //     ]
+      //   },
+      //   title: 'The Ultimate Family Ski Trip Packing List',
+      //   baseType: 'CONTENT',
+      //   archived: false,
+      //   ownerName: 'Admin User',
+      //   working: true,
+      //   live: true,
+      //   owner: 'dotcms.org.1',
+      //   languageId: 1,
+      //   URL_MAP_FOR_CONTENT: '/blog/post/the-ultimate-family-ski-trip-packing-list',
+      //   ogDescription:
+      //     'A family ski trip can be a bonding, exhilarating experience. There is something mind clearing about ascending the mountain bundled up in the crisp air, and then soaring down the snow-covered slopes on skis.',
+      //   url: '/content.33ad0dcf-ee3d-4637-9678-c9a301dd998f',
+      //   titleImage: 'image',
+      //   modUserName: 'Admin User',
+      //   urlMap: '/blog/post/the-ultimate-family-ski-trip-packing-list',
+      //   hasLiveVersion: true,
+      //   blogContent_raw:
+      //     '{\n  "type" : "doc",\n  "content" : [ {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "If you\'re planning a family ski trip, packing can be overwhelming. There\'s so much to consider, from warm clothing to ski gear to entertainment for the car ride. To make things easier, we\'ve put together the ultimate family ski trip packing list to help you make sure you don\'t forget anything important."\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "start"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "Foremost, you\'ll want to pack all of your warm clothing. This includes things like thermal underwear, ski socks, ski jackets, ski pants, and warm hats and gloves. Make sure to pack extra layers in case it gets colder than expected. You\'ll also want to bring along some non-ski clothing for apres-ski activities, such as jeans, sweaters, and comfortable shoes."\n    } ]\n  }, {\n    "type" : "dotContent",\n    "attrs" : {\n      "data" : {\n        "inode" : "bbc615de-9469-44ef-8658-6816ac0a229f",\n        "locked" : false,\n        "stInode" : "a1661fbc-9e84-4c00-bd62-76d633170da3",\n        "contentType" : "Product",\n        "identifier" : "662efaea-ccca-4753-acbc-15683bb3f68d",\n        "image" : "/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image/helmet-2.jpeg",\n        "urlTitle" : "anon-womens-omega-snow-helmet",\n        "productNumber" : "3467050841805-010900",\n        "folder" : "SYSTEM_FOLDER",\n        "sortOrder" : 0,\n        "specifications1" : { },\n        "hostName" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n        "modDate" : "2020-09-02T16:45:20.057+00:00",\n        "description" : "<p>The Anon Women\'s Omega Snow Helmet features the In-shell 360&deg; Boa&reg; Fit System for easy, on-the-go fit adjustment with the turn of a dial. It\'s a full-featured helmet that will have you raving over the slick, well-vented design. In-mold shell construction offers the best in comfort with a sleek, low-profile fit and feel. The Goggle Ventilation Channel brings in fresh air to prevent google fogging. Active Ventilation gives you one-handed control over 12 total vents, so you can fine tune your temperature depending on the weather and activity.<br /><br /></p>",\n        "title" : "Anon Women\'s Omega Snow Helmet",\n        "baseType" : "CONTENT",\n        "archived" : false,\n        "working" : true,\n        "live" : true,\n        "owner" : "dotcms.org.1",\n        "image3" : "/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image3/helmet.jpeg",\n        "salePrice" : "89.99",\n        "languageId" : 1,\n        "image2" : "/data/shared/assets/b/b/bbc615de-9469-44ef-8658-6816ac0a229f/image2/helmet-3.jpeg",\n        "hasLiveVersion" : true,\n        "modUser" : "dotcms.org.1",\n        "retailPrice" : "149.95",\n        "contentTypeIcon" : "inventory"\n      }\n    }\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "start"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "Next, you\'ll want to pack all of your ski gear. This includes skis, poles, boots, and helmets. If you\'re renting equipment, make sure to bring along your rental confirmation and any necessary identification. You\'ll also want to bring along some extra gear, such as goggles and sunscreen, to protect yourself from the sun and cold."\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "start"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "In addition to ski gear and clothing, there are a few other things you\'ll want to bring along on your family ski trip. These include:"\n    } ]\n  }, {\n    "type" : "bulletList",\n    "content" : [ {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Medications: If anyone in your family takes prescription medication, make sure to bring enough for the entire trip. It\'s also a good idea to bring along some over-the-counter medications, such as ibuprofen and allergy medicine, in case anyone gets sick or has allergies."\n        } ]\n      } ]\n    }, {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Entertainment: If you\'ll be driving to your ski destination, make sure to bring along some entertainment for the car ride. This can include books, games, and movies to keep everyone entertained."\n        } ]\n      } ]\n    }, {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Snacks and drinks: Pack some snacks and drinks for the car ride and for the slopes. Energy bars, fruit, and sandwiches are all good options. Don\'t forget to bring along water bottles or a thermos to stay hydrated."\n        } ]\n      } ]\n    }, {\n      "type" : "listItem",\n      "attrs" : {\n        "textAlign" : "left"\n      },\n      "content" : [ {\n        "type" : "paragraph",\n        "attrs" : {\n          "textAlign" : "left"\n        },\n        "content" : [ {\n          "type" : "text",\n          "text" : "Personal items: Don\'t forget to pack your personal items, such as toiletries, phone charger, and camera."\n        } ]\n      } ]\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "By following this packing list, you\'ll be well prepared for your ultimate family ski trip. With all of the necessary items packed, you can focus on having a great time on the slopes with your loved ones."\n    } ]\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "Now that you know what to pack, explore where to go for the best skiing this winter."\n    } ]\n  }, {\n    "type" : "dotContent",\n    "attrs" : {\n      "data" : {\n        "cachettl" : "15",\n        "pageTitle" : "French Alps Ski Vacation Packages",\n        "ogTitle" : "French Alps Ski Vacation Packages",\n        "type" : "Winter Adventures",\n        "metaDescription" : "Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!",\n        "ogType" : "website",\n        "inode" : "aa496f5b-c438-4783-a284-7c6a525b52af",\n        "locked" : false,\n        "stInode" : "91812c8b-0441-4139-8d4d-7423cfb0e979",\n        "contentType" : "Destination",\n        "sitemap" : "true",\n        "identifier" : "77f953d1-529e-435c-8195-630efbb6bf58",\n        "image" : "2977268787313047a4e1b958b1b8af3e",\n        "shortDescription" : "Courchevel is part of the world’s biggest lift-linked ski area, has the most balanced range of runs in the 3 Vallées to suit all abilities, reliable snow: what more could you wish for? You could come to Les 3 Vallées for weeks and never ski the same slope twice; and there’s no better place to experience it all than at Courchevel! Courchevel’s four separate villages sit amongst the north-facing slopes on the left side of the map and offer probably the most balanced selection of greens, blues, reds, and blacks in the 3 Vallées, making it our top resort here. If you’re up for exploring more however, the ski area is well linked so getting to the other end isn’t too difficult.",\n        "tags" : "skiing,winterenthusiast",\n        "sitemapImportance" : "0.8",\n        "folder" : "6c8a2ac4-36a7-4b01-b9c0-c2c1d91ddfdb",\n        "sortOrder" : 0,\n        "template" : "c2470fd2-9687-4041-ac58-784894171840",\n        "hostName" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n        "modDate" : "2024-06-06T18:59:56.595+00:00",\n        "searchEngineIndex" : "index,follow,snippet",\n        "title" : "French Alps",\n        "baseType" : "Page",\n        "archived" : false,\n        "working" : true,\n        "friendlyName" : "French Alps",\n        "live" : true,\n        "owner" : "dotcms.org.1",\n        "languageId" : 1,\n        "ogDescription" : "Experience the thrill of the French Alps with our all-inclusive ski vacation packages. Immerse yourself in breathtaking scenery and world-class slopes. Book now!",\n        "hasLiveVersion" : true,\n        "modUser" : "dotcms.org.1",\n        "contentTypeIcon" : "airplane_ticket",\n        "activities" : [ {\n          "publishDate" : "2024-06-04 19:24:22.052",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>Admiring the dramatic mountain landscape from atop the ski lift, feeling the cold air nipping at your cheeks, experiencing the rush of adrenaline as you carve the snow &ndash; there\'s nothing quite like a day on the slopes. And while the mountain conditions are top priority, our ski vacation spots also boast charming towns and lively apr&egrave;s-ski scenes to explore. Factors like resort variety, scenic beauty, annual snowfall and overall atmosphere, we have the world\'s best places to ski. Wondering where to go? Take a peek at the destinations, and don\'t forget to vote for your favorites.</p>",\n          "inode" : "56a23253-840f-43ee-98ff-06508b99e43d",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Skiing",\n          "identifier" : "6a8102b5-fdb0-4ad5-9a5d-e982bcdb54c8",\n          "image" : { },\n          "urlTitle" : "skiing",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:09.068",\n          "tags" : "skiing,winterenthusiast",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-04 19:24:21.985",\n          "description" : "Skiing is the best family sport because it\'s so much more than a sport: it\'s a medium of shared experiences in a living, breathing culture of connection.",\n          "title" : "Skiing",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/skiing",\n          "url" : "/content.97dded8a-f260-4730-aa99-56c9ea01c16d",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/skiing",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        }, {\n          "publishDate" : "2024-06-19 19:15:58.666",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you\'re a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you\'re headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",\n          "inode" : "669db9d1-9274-4fca-af61-bd54229f049c",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Snowboarding",\n          "identifier" : "574f0aec-185a-4160-9c17-6d037b298318",\n          "image" : {\n            "identifier" : "547f0ab4744d3d0122c4494031a17ebf",\n            "parent" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n            "extension" : "ukn",\n            "isContentlet" : true,\n            "description" : "",\n            "__icon__" : "941b3d89-a911-4324-a945-5ebc79921e5bIcon",\n            "mimeType" : "application/octet-stream",\n            "statusIcons" : "<span class=\'greyDotIcon\' style=\'opacity:.4\'></span><span class=\'liveIcon\'></span>",\n            "type" : "file_asset",\n            "metaData" : { },\n            "path" : "/",\n            "size" : 0,\n            "name" : "content.941b3d89-a911-4324-a945-5ebc79921e5b",\n            "underlyingFileName" : null\n          },\n          "urlTitle" : "snowboarding",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:07.605",\n          "tags" : "snowboarding,winterenthusiast",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-19 19:15:58.591",\n          "description" : "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late \'80s and \'90s now are riding with their kids.",\n          "title" : "Snowboarding",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/snowboarding",\n          "url" : "/content.2f6fe5b8-a2cc-4ecb-a868-db632d695fca",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/snowboarding",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        }, {\n          "publishDate" : "2024-06-04 19:23:44.955",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>Everywhere we look, we are greeted with peaceful waterfalls, tropical rainforests and stretches of ocean surf. These are the perfect conditions for zip lining, rafting, canyoning, cycling and hiking. A leader in wildlife and sustainability initiatives, Costa Rica is rich with interesting creatures. Our guides use their training as naturalists to point out white-faced capuchins, howler monkeys and maybe even a sloth camouflaged in a tree.<br /><br />Our journey begins at Arenal Volcano National Park, where we spend three days hiking volcanoes, canyoning deep in the tropical rainforest and zip lining high above the jungle canopy. Get a glimpse of the majestic Arenal volcano and then soak up natural thermal hot springs with fellow adventurers after the day&rsquo;s explorations. Take in the wild and beautiful Rio Pacuare for two days of heart-pounding whitewater rafting. Spend our final day cycling through the quaint towns and fertile slopes of the Turrialba region.</p>",\n          "inode" : "20f4a2ad-66fd-46da-8f72-c7590fe330bd",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Hiking in Costa Rica",\n          "identifier" : "6bbead53-3908-471c-966d-9e76c5dd9eba",\n          "image" : { },\n          "urlTitle" : "hiking",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:10.543",\n          "tags" : "ecoenthusiast,hiking",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-04 19:23:44.882",\n          "description" : "Guided hiking tours where our guides use their training as naturalists to point out animals, unique plants and nature itself.",\n          "title" : "Hiking",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/hiking",\n          "url" : "/content.fbf02abe-ec2d-4a21-a42f-12c4b0707f71",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/hiking",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        }, {\n          "publishDate" : "2024-06-19 19:21:45.479",\n          "language" : {\n            "languageId" : 1,\n            "language" : "English",\n            "languageCode" : "en",\n            "country" : "United States",\n            "countryCode" : "US",\n            "languageFlag" : "en_US",\n            "isoCode" : "en-us",\n            "id" : 1\n          },\n          "body" : "<p>Cross country, or Nordic skiing, can be a lot like walking on skis, but proficient skiers stride and glide with ease and speed. Only the Nordic skier\'s toe is attached to the ski, permitting that striding glide that carries you \\"cross country.\\" Flat terrain is best for novices, and there\'s plenty of that at our resort areas.<br /><br />Nordic skiers usually use a \\"step turn,\\" like ice skaters, but with the classic telemark turn, advanced skiers tackle the winding trails, downhill ski slopes, even isolated backcountry areas drifted deep with snow.</p>",\n          "inode" : "80ddff00-63e3-47ac-b8ff-cccf0b3dd73c",\n          "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n          "locked" : false,\n          "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n          "contentType" : "Activity",\n          "altTag" : "Nordic Skiing",\n          "identifier" : "af5d2a9d-86ed-421d-a9e6-5e5dae0e484a",\n          "image" : {\n            "identifier" : "a864aaf94b9addc14c671f4c53a2beff",\n            "parent" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n            "extension" : "ukn",\n            "isContentlet" : true,\n            "description" : "",\n            "__icon__" : "2ea7607f-9062-45f7-80cb-7ab17fc39aeeIcon",\n            "mimeType" : "application/octet-stream",\n            "statusIcons" : "<span class=\'greyDotIcon\' style=\'opacity:.4\'></span><span class=\'liveIcon\'></span>",\n            "type" : "file_asset",\n            "metaData" : { },\n            "path" : "/",\n            "size" : 0,\n            "name" : "content.2ea7607f-9062-45f7-80cb-7ab17fc39aee",\n            "underlyingFileName" : null\n          },\n          "urlTitle" : "nordic-skiing",\n          "publishUserName" : "Admin User",\n          "publishUser" : "dotcms.org.1",\n          "creationDate" : "2020-09-02 16:42:06.624",\n          "tags" : "nordic,cross-country skiing,skiing,winterenthusiast",\n          "folder" : "SYSTEM_FOLDER",\n          "hasTitleImage" : true,\n          "sortOrder" : 0,\n          "hostName" : "demo.dotcms.com",\n          "modDate" : "2024-06-19 19:21:45.393",\n          "description" : "Visit a cross-country ski center with groomed trails, rent some gear, and try it out. These carved tracks eliminate 90 percent of your worries about sailing off into the woods because they keep your skis pointed forward.",\n          "title" : "Cross-country Skiing",\n          "baseType" : "CONTENT",\n          "archived" : false,\n          "ownerName" : "Admin User",\n          "working" : true,\n          "live" : true,\n          "owner" : "dotcms.org.1",\n          "languageId" : 1,\n          "URL_MAP_FOR_CONTENT" : "/activities/nordic-skiing",\n          "url" : "/content.796de41e-3fb9-4192-8b21-71baf72b8922",\n          "titleImage" : "image",\n          "modUserName" : "Admin User",\n          "urlMap" : "/activities/nordic-skiing",\n          "hasLiveVersion" : true,\n          "modUser" : "dotcms.org.1",\n          "__icon__" : "contentIcon",\n          "contentTypeIcon" : "paragliding",\n          "variant" : "DEFAULT"\n        } ]\n      }\n    }\n  }, {\n    "type" : "paragraph",\n    "attrs" : {\n      "textAlign" : "left"\n    },\n    "content" : [ {\n      "type" : "text",\n      "text" : "and don\'t forget to try a new activity. There is more to winter than just downhill skiing."\n    } ]\n  }, {\n    "type" : "dotContent",\n    "attrs" : {\n      "data" : {\n        "hostName" : "48190c8c-42c4-46af-8d1a-0cd5db894797",\n        "modDate" : "2024-06-19T19:15:58.591+00:00",\n        "description" : "Snowboarding, once a prime route for teen rebellion, today is definitely mainstream. Those teens — both guys and Shred Bettys, who took up snowboarding in the late \'80s and \'90s now are riding with their kids.",\n        "title" : "Snowboarding",\n        "body" : "<p>As with skiing, there are different styles of riding. Free-riding is all-mountain snowboarding on the slopes, in the trees, down the steeps and through the moguls. Freestyle is snowboarding in a pipe or park filled with rails, fun boxes and other features.<br /><br />Snowboarding parks are designed for specific skill levels, from beginner parks with tiny rails hugging the ground to terrain parks with roller-coaster rails, fun boxes and tabletops for more experienced snowboarders.<br /><br />Whether you\'re a first-timer or already comfortable going lip-to-lip in a pipe, there are classes and special clinics for you at our ski and snowboard resorts. Our resorts offer multiday clinics, so if you\'re headed to ski this winter, consider wrapping your vacation dates around a snowboarding clinic.</p>",\n        "baseType" : "CONTENT",\n        "inode" : "669db9d1-9274-4fca-af61-bd54229f049c",\n        "archived" : false,\n        "working" : true,\n        "locked" : false,\n        "stInode" : "778f3246-9b11-4a2a-a101-e7fdf111bdad",\n        "contentType" : "Activity",\n        "live" : true,\n        "altTag" : "Snowboarding",\n        "owner" : "dotcms.org.1",\n        "identifier" : "574f0aec-185a-4160-9c17-6d037b298318",\n        "image" : "547f0ab4744d3d0122c4494031a17ebf",\n        "urlTitle" : "snowboarding",\n        "languageId" : 1,\n        "tags" : "snowboarding,winterenthusiast",\n        "hasLiveVersion" : true,\n        "folder" : "SYSTEM_FOLDER",\n        "sortOrder" : 0,\n        "modUser" : "dotcms.org.1",\n        "contentTypeIcon" : "paragliding"\n      }\n    }\n  } ]\n}',
+      //   modUser: 'dotcms.org.1',
+      //   teaser: 'A family ski trip can be a bonding',
+      //   __icon__: 'contentIcon',
+      //   contentTypeIcon: 'file_copy',
+      //   variant: 'DEFAULT'
+      // }
     ]
-  })
+  }
+  )
   return { blogPosts }
 })
