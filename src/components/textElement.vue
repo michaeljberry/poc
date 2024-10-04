@@ -1,5 +1,4 @@
 <script setup>
-import { onMounted } from 'vue';
 import { cssClasses } from '@/classes'
 
 const props = defineProps({
@@ -8,11 +7,7 @@ const props = defineProps({
     },
 })
 
-onMounted(() => {
-    // console.log(props.element)
-})
 const isThisALink = (element) => {
-    console.log(element)
     if(!element?.marks?.length) return false
     const elementsWithMarks = element.marks.filter(element => {
         return element.type != 'link'

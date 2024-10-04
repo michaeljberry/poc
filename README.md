@@ -52,10 +52,15 @@ npm run lint
 ```
 
 ## Verifying the Project
+
 When you ran `npm run dev` in the terminal, you should see output similar to this:
+
 ```
  VITE v5.4.8  ready in 417 ms
 
   ➜  Local:   http://localhost:5173/
 ```
+
 In a browser, open the URL. It should open the home page of the project. You can navigate to the "Travel Blog" via the top menu. This page displays the published blog posts. When you click on the blog post, you are taken to the page specific to that post.
+
+You can also open the `BlogView.vue` component and adjust `useLocal` from true to false or vice versa. If `useLocal` is set to true, then the blog posts in the blogPost store will be used instead of fetching new blogs from the host domain.
