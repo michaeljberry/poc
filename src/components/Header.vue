@@ -61,7 +61,7 @@ const mobileMenuOpen = ref(false)
         </button>
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-        <NavLink src="https://demo.dotcms.com/" text="Home" :ext="true" target="_blank" />
+        <NavLink src="/" text="Home" :ext="true" />
         <NavLink text="Travel Blog" src="/blog" />
         <NavLink text="Destinations" />
         <Popover class="relative p-[3px]">
