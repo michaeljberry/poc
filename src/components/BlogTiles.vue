@@ -13,8 +13,6 @@ const formatter = new Intl.DateTimeFormat('en-US', {
   day: '2-digit',
 });
 
-console.log(props.post)
-
 const publishedDate = computed(() => {
   return formatter.format(new Date(props.post.publishDate))
 })

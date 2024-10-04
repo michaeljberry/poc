@@ -4,6 +4,9 @@ import { ref, onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router';
 import { useBlogPostStore } from '@/stores/blogPost'
 import paragraph from '@/components/paragraph.vue'
+import dotImage from '@/components/dotImage.vue'
+import heading from '@/components/heading.vue'
+import bulletList from '@/components/bulletList.vue'
 
 const route = useRoute();
 const store = useBlogPostStore()
@@ -19,6 +22,9 @@ defineProps({
 
 function getComponent(section) {
   if(section.type == 'paragraph') return paragraph
+  if(section.type == 'dotImage') return dotImage
+  if(section.type == 'heading') return heading
+  if(section.type == 'bulletList') return bulletList
 }
 
 async function getPost() {
