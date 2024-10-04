@@ -3,6 +3,7 @@ import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/vue/20/solid'
 import { ref, onBeforeMount } from 'vue'
 import { useRoute } from 'vue-router';
 import { useBlogPostStore } from '@/stores/blogPost'
+import paragraph from '@/components/paragraph.vue'
 
 const route = useRoute();
 const store = useBlogPostStore()
@@ -16,16 +17,16 @@ defineProps({
   }
 })
 
+function getComponent(section) {
+  if(section.type == 'paragraph') return paragraph
+}
+
 async function getPost() {
-  // const posts = blogPosts.contentlets
   const posts = blogPosts
-  console.log(posts)
   const identifier = route.params.id
-  console.log(identifier)
   post.value = posts.filter(post => {
     return post.identifier == identifier
   })[0]
-  console.log(post.value)
 }
 
 onBeforeMount(() => {
@@ -38,7 +39,16 @@ onBeforeMount(() => {
     <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
       <p class="text-base font-semibold leading-7 text-orange-400">Introducing</p>
       <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ post.pageTitle }}</h1>
-      <p class="mt-6 text-xl leading-8">{{ post.metaDescription }}</p>
+      <!-- <p class="mt-6 text-xl leading-8">{{ post.metaDescription }}</p> -->
+      <section  >
+        <component
+          v-for="(section, key) in post.blogContent.content"
+          :key="key"
+          :is="getComponent(section)"
+          :content=section
+        >
+        </component>
+      </section>
       <div class="mt-10 max-w-2xl">
         <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
           sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.

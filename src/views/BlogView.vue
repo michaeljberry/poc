@@ -8,7 +8,7 @@ import BlogTiles from '@/components/BlogTiles.vue'
  * Configurable variables
 */
 // useLocal = true -> indicates that the hard-coded blog posts in the BlogPost store will be used instead of fetching from the remote site
-const useLocal = false;
+const useLocal = true;
 const blogPageTitle = 'Travel Blog'
 const blogPageHighlight = `Get inspired to experience the world. Our writers will give
             you their first-hand stories and recommendations that will inspire, excite you, and help you make the best

@@ -21,8 +21,6 @@ const router = createRouter({
       path: '/blog/post/:slug/:id',
       name: 'post',
       component: () => import('../views/PostView.vue'),
-      // props: (route) => ({ post: { slug: route.params.slug, id: route.params.identifier } })
-      props: true
     }
   ]
 })
