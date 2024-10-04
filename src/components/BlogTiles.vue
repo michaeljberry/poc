@@ -29,7 +29,7 @@ const publishedDate = computed(() => {
     </div>
     <div class="group relative">
       <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-        <RouterLink v-bind="$props"
+        <RouterLink 
           :to="{ name: 'post', params: { slug: post.urlMap.replace('/blog/post/', ''), id: post.identifier } }">
           <span class="absolute inset-0" />
           {{ post.title }}

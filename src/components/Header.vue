@@ -62,11 +62,11 @@ const mobileMenuOpen = ref(false)
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
         <NavLink src="https://demo.dotcms.com/" text="Home" :ext="true" target="_blank" />
-        <NavLink text="Travel Blog" src="blog" />
+        <NavLink text="Travel Blog" src="/blog" />
         <NavLink text="Destinations" />
         <Popover class="relative p-[3px]">
           <PopoverButton
-            class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900"
+            class="flex items-center rounded-lg px-3 py-1 gap-x-1 text-sm font-semibold leading-6 text-gray-900 popoverButton"
           >
             Store
             <ChevronDownIcon class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
@@ -87,7 +87,7 @@ const mobileMenuOpen = ref(false)
                 v-for="item in company"
                 :key="item.name"
                 :href="item.href"
-                class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50"
+                class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900"
                 >{{ item.name }}</a
               >
             </PopoverPanel>
@@ -129,7 +129,7 @@ const mobileMenuOpen = ref(false)
               <NavLinkMobile text="Destinations" />
               <Disclosure as="div" class="-mx-3" v-slot="{ open }">
                 <DisclosureButton
-                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900"
                 >
                   Store
                   <ChevronDownIcon
@@ -143,7 +143,7 @@ const mobileMenuOpen = ref(false)
                     :key="item.name"
                     as="a"
                     :href="item.href"
-                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900"
                     >{{ item.name }}</DisclosureButton
                   >
                 </DisclosurePanel>

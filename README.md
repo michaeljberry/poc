@@ -50,3 +50,12 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+## Verifying the Project
+When you ran `npm run dev` in the terminal, you should see output similar to this:
+```
+ VITE v5.4.8  ready in 417 ms
+
+  ➜  Local:   http://localhost:5173/
+```
+In a browser, open the URL. It should open the home page of the project. You can navigate to the "Travel Blog" via the top menu. This page displays the published blog posts. When you click on the blog post, you are taken to the page specific to that post.

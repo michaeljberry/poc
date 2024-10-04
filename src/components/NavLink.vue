@@ -17,8 +17,8 @@ defineProps({
 </script>
 
 <template>
-  <RouterLink v-if="!ext" :to="src" class="text-sm font-semibold leading-6 text-gray-900">{{
+  <RouterLink v-if="!ext" :to="src" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900">{{
     text
   }}</RouterLink>
-  <a v-else :href="src" class="text-sm font-semibold leading-6 text-gray-900">{{ text }}</a>
+  <a v-else :href="src" class="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900">{{ text }}</a>
 </template>

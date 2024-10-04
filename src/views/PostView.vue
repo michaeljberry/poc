@@ -6,7 +6,7 @@ import { useBlogPostStore } from '@/stores/blogPost'
 
 const route = useRoute();
 const store = useBlogPostStore()
-const blogPosts = store.blogPosts
+const blogPosts = store.blogPosts.contentlets
 
 const post = ref()
 
